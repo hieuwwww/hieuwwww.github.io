@@ -1,0 +1,16 @@
+.start-button {
+  color: aliceblue;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 25px;
+  text-decoration: none;
+  background: linear-gradient(48deg, #03aed2, rgb(167, 197, 252));
+  border-radius: 40px;
+  width: 450px;
+  letter-spacing: 1px;
+  margin-left: 0px;
+  cursor: pointer;
+}
+
+.intro2 {
+  background-color: #000;
+}
