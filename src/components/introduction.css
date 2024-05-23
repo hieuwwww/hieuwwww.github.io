@@ -14,3 +14,17 @@
 .intro2 {
   background-color: #000;
 }
+.images-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  /* text-align: center; */
+}
+
+.class-item {
+  flex-grow: 0;
+  align-self: center;
+}
+.class-item img {
+  margin: 20px 40px;
+}

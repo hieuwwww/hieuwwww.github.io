@@ -8,15 +8,6 @@
   display: flex;
 }
 
-/* Styling for the homepage icon */
-.homepage-icon {
-  display: flex;
-  align-items: center;
-  font-size: 24px;
-  font-weight: bold;
-  color: #333;
-}
-
 /* Styling for the lists of nav items */
 .list1 {
   display: flex;

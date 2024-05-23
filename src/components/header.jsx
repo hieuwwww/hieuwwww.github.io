@@ -4,7 +4,6 @@ export default function Header() {
   return (
     <div className="header-container">
       <div className="homepage-icon">
-        image.png
         <img src="" alt="" />
       </div>
       <div className="list1">

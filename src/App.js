@@ -1,17 +1,11 @@
 import logo from "./logo.svg";
 import "./App.css";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import Intro from "./components/introduction";
 
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <Intro />
-      <Footer />
-    </div>
-  );
-}
+import Home from "./home";
+import { Route, Router, Routes, Link } from "react-router-dom";
+import AppRouter from "./AppRouter";
 
+const App = () => {
+  return <AppRouter />;
+};
 export default App;
