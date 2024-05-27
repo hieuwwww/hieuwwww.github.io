@@ -1,0 +1,14 @@
+._button {
+    min-width: 300px;
+    height: auto;
+    padding: 20px;
+    border-radius: 15px;
+    color: white;
+    background-color: aqua;
+}
+
+.siu {
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgb(138, 120, 240);
+    border: 2px solid black;
+}
