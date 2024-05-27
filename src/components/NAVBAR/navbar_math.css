@@ -1,73 +1,73 @@
 :root {
-    --backgroundColor: #17c7ea;
-    --textColor: rgb(235, 233, 239);
+  --backgroundColor: #17c7ea;
+  --textColor: rgb(235, 233, 239);
 }
 
-
 .container_math {
-    display: flex;
-    background-color: var(--backgroundColor);
-    color: var(--textColor);
-    padding: 20px;
-    font-size: 23px;
-    box-shadow: 0 1px 10px rgba(50, 49, 49, 0.5);
-    position: fixed;
-    width: 100vw;
-    z-index: 10;
-    align-items: center;
-
+  display: flex;
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  padding: 20px;
+  font-size: 23px;
+  box-shadow: 0 1px 10px rgba(50, 49, 49, 0.5);
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: 10;
+  align-items: center;
 }
 
 i {
-    z-index: 10;
+  z-index: 10;
 }
 
-i+i {
-    margin-left: 5px;
+i + i {
+  margin-left: 5px;
 }
 
 a {
-    text-decoration: none;
-    color: var(--textColor);
-    font-size: 20px;
-    font-family: sans-serif;
+  text-decoration: none;
+  color: var(--textColor);
+  font-size: 20px;
+  font-family: sans-serif;
 }
 
 li {
-    list-style: none;
+  list-style: none;
 }
 
 a:hover {
-    text-decoration: wavy;
-    color: #ffffff;
-
+  text-decoration: wavy;
+  color: #ffffff;
 }
 
 .container_li {
-    margin-left: 50px;
-
-
+  margin-left: 50px;
 }
 
 ul {
-    display: flex;
+  display: flex;
 }
 
 .dnhap_dki {
-    display: flex;
-    margin-left: 210px;
+  display: flex;
+  position: absolute;
+  right: 0;
+  margin-right: 10%;
 }
 
 a {
-    margin-left: 30px;
+  margin-left: 30px;
+  /* text-wrap: none; */
+  width: auto;
 }
 
 .dnhap_dki a {
-    padding: 10px;
+  padding: 10px;
 }
 
 .dnhap_dki a:hover {
-    border-radius: 30px;
-    background-color: rgb(39, 23, 80);
-    box-shadow: 0 1px 10px rgba(50, 49, 49, 0.5);
+  border-radius: 30px;
+  background-color: rgb(39, 23, 80);
+  box-shadow: 0 1px 10px rgba(50, 49, 49, 0.5);
 }

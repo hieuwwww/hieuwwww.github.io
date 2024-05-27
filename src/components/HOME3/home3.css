@@ -1,0 +1,27 @@
+.container-home3 {
+  display: inline-block;
+  justify-content: center;
+  background-color: black;
+  color: #fff;
+  padding: 30px;
+}
+.home3-item {
+  display: flex;
+  background-color: black;
+  flex-direction: column;
+  margin: 10px 30px;
+}
+.math {
+  display: flex;
+  flex-direction: column;
+}
+a {
+  margin: 10px 10px;
+}
+i {
+  margin-left: 100px;
+}
+.container-home3 img {
+  width: 350px;
+  height: 200px;
+}
