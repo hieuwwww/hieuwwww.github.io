@@ -12,11 +12,6 @@ export default function Ap() {
       <Home1 />
       <Home2 />
       <Home3 src="pics/1.jpg" />
-      <Home3 src="pics/2.jpg" />
-      <Home3 src="pics/3.jpg" />
-      <Home3 src="pics/4.jpg" />
-      <Home3 src="pics/5.jpg" />
-      <Home3 src="pics/6.jpg" />
     </div>
   );
 }
