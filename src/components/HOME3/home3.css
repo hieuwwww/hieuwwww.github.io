@@ -3,8 +3,11 @@
   display: flex;
   flex-direction: column;
   width: 100%;
-  height: 600px;
+  height: 700px;
+  padding-bottom: 50px;
+  padding-top: 70px;
   align-items: center;
+  margin-top: 250px;
 }
 
 .container_home3_it {
@@ -19,11 +22,26 @@
   margin: 10px 30px;
 }
 
-a {
-  margin-top: 10px;
+.itemDown {
+  margin-top: 2%;
+}
+
+.item_home3 a {
+  margin: 0;
+  margin-top: 15px;
 }
 
 img {
-  height: 155px;
-  width: 230px;
+  height: 210px;
+  width: 320px;
+}
+
+.item_home3 a>i {
+  float: right;
+
+}
+
+.item_home3 :hover {
+  color: #17eaea;
+  border-bottom: 1px solid #43d1ed;
 }

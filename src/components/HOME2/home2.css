@@ -5,7 +5,10 @@
   justify-content: center;
   margin-bottom: 50px;
 }
+
 video {
-  width: 70%;
-  height: 65%;
+  width: 80%;
+  height: 55%;
+  box-shadow: 0 0 10px rgb(121, 177, 223);
+  border-radius: 15px;
 }
