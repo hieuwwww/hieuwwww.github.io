@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const NavBar = () => {
   const c1 = {
     color: "#fff",
@@ -20,24 +21,19 @@ const NavBar = () => {
   };
   return (
     <div className="container_math">
-      <i className="fa-solid fa-m fa-bounce" style={c1}></i>
-      <i className="fa-solid fa-a" style={c2}></i>
-      <i className="fa-solid fa-t" style={c4}></i>
-      <i className="fa-solid fa-square-h fa-beat" style={c3}></i>
+      <Link to="/">
+        <i className="fa-solid fa-m fa-bounce" style={c1}></i>
+        <i className="fa-solid fa-a" style={c2}></i>
+        <i className="fa-solid fa-t" style={c4}></i>
+        <i className="fa-solid fa-square-h fa-beat" style={c3}></i>
+      </Link>
+
       <span className="container_li">
         <ul>
-          <li>
-            <a href="">Giới thiệu</a>
-          </li>
-          <li>
-            <a href="">Liên hệ</a>
-          </li>
-          <li>
-            <a href="">Về chúng tôi</a>
-          </li>
-          <li>
-            <a href="">Mạng xã hội</a>
-          </li>
+          <Link to="/introduction">Giới thiệu</Link>
+          <Link to="/navbar">Về chúng tôi</Link>
+          <Link to="/social">Mạng xã hội</Link>
+          <Link to="/contact">Liên hệ</Link>
           <span className="dnhap_dki">
             <li>
               <a href="">Đăng kí</a>

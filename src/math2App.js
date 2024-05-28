@@ -13,10 +13,6 @@ import Footer from "./components/FOOTER/Footer.jsx";
 export default function Ap() {
   return (
     <div>
-      {/* <NavBar />
-      <Home1 />
-      <Home2 />
-      <Home3 src="pics/1.jpg" /> */}
       <NavBar />
       <NavBarOfficial />
       <Infor />
