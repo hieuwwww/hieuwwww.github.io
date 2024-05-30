@@ -56,3 +56,8 @@
     border-bottom: 1px solid rgb(255, 255, 255);
     box-shadow: 0 12px 10px -10px rgb(239, 237, 237);
 }
+
+.navbar_ul_official a:focus {
+    border-bottom: 1px solid rgb(255, 255, 255);
+    box-shadow: 0 12px 10px -10px rgb(239, 237, 237);
+}

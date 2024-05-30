@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './NavBar.css'
 
 export default function NavBarOfficial() {
@@ -27,12 +28,12 @@ export default function NavBarOfficial() {
         <div className='container__navbar__official'>
             <h3 style={{ color: '#0a174f', fontFamily: 'Tahoma' }} id='noidung'>Nội dung</h3>
             <ul className="navbar_ul_official">
-                <li style={{ marginTop: '0px' }}>    <a href="">Toán lớp 1</a></li>
-                <li>    <a href="">Toán lớp 2</a></li>
-                <li>    <a href="">Toán lớp 3</a></li>
-                <li>    <a href="">Toán lớp 4</a></li>
-                <li>    <a href="">Toán lớp 5</a></li>
-                <li>    <a href="">Đề thi toán tổng hợp</a></li>
+                <li style={{ marginTop: '0px' }}><Link to={"/toan1"}>Toán lớp 1</Link></li>
+                <li>    <Link to={"/toan2"}>Toán lớp 2</Link></li>
+                <li>    <Link to={"/toan3"}>Toán lớp 3</Link></li>
+                <li>    <Link to={"/toan4"}>Toán lớp 4</Link></li>
+                <li>    <Link to={"/toan5"}>Toán lớp 5</Link></li>
+                <li>    <Link to={"/dethi"}>Đề thi toán tổng hợp</Link></li>
             </ul>
         </div>
     );
