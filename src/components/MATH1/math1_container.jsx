@@ -1,3 +1,4 @@
+import NextPage from "../FOOTER/nextpage";
 import NavBar from "../NAVBAR/navbar_math";
 import NavBarOfficial from "../OfficialHome/NavBar";
 import Math1 from "./math1";
@@ -8,6 +9,7 @@ export default function Math1_container() {
             <NavBar />
             <NavBarOfficial />
             <Math1 />
+            <NextPage />
         </div>
     );
 }

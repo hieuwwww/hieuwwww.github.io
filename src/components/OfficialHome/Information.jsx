@@ -6,7 +6,7 @@ import ContentItem from "./content_item";
 
 export default function Infor() {
   return (
-    <div className="container_information">
+    <div className="container_information" style={{ paddingBottom: '150px' }}>
       {noidung.map((item, index) => (
         <ContentItem
           key={index}

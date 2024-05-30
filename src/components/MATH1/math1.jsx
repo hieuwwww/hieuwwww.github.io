@@ -1,3 +1,4 @@
+import NextPage from '../FOOTER/nextpage';
 import NavBarOfficial from '../OfficialHome/NavBar';
 import csss from './math1.module.css'
 import VIDEO from './videomath';
@@ -13,7 +14,7 @@ export default function Math1() {
     return (
         <div style={{ marginLeft: '25%', marginTop: '8%', }}>
             <h2 style={{ backgroundImage: 'url("/pics/nentoanlop1.jpg")', height: '300px', width: '86%', backgroundSize: 'cover' }}></h2>
-            <h2 style={{ marginTop: '80px' }}>TOÁN LỚP 1</h2>
+            <h2 style={{ marginTop: '80px', color: '#488dc7' }}>TOÁN LỚP 1</h2>
             <div style={{ display: 'flex', flexWrap: 'wrap', paddingBottom: '200px' }}>
                 <VIDEO />
                 <VIDEO />
@@ -23,6 +24,8 @@ export default function Math1() {
                 <VIDEO />
                 <VIDEO />
                 <VIDEO />
+                <VIDEO />
+
             </div>
         </div >
     );

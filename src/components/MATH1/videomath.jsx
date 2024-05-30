@@ -8,7 +8,7 @@ export default function VIDEO() {
             </div>
             <div className='container_video_text'>
                 <p>Bài 1: khái niệm - luyện tập vận dụng 3 - toán 1 | mathfun</p>
-                <div className='button_lithuyet'>Lí thuyết</div>
+                <div className='button_lithuyet' style={{ color: '#488dc7' }}>Lí thuyết</div>
             </div>
         </div>
     );
