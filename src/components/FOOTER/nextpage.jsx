@@ -8,7 +8,7 @@ export default function NextPage() {
 
             <Link><i class="fa-solid fa-chevron-right fa-flip-horizontal"></i></Link>
 
-            <Link> <i class="fa-solid fa-chevron-right"></i></Link>
+            <Link to={'/toan1/toan1_page2'}> <i class="fa-solid fa-chevron-right"></i></Link>
 
 
         </div>

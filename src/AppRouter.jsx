@@ -20,6 +20,7 @@ const AppRouter = () => {
           <Route path="/contact" element={<LienHeContainer />} />{" "}
           <Route path="/MathHome" element={<Introduction />} />{" "}
           <Route path="/toan1" element={<Math1_container />} />{" "}
+          <Route path="/toan1/toan1_page2" element={<Math1_container />} />{" "}
         </Routes>
       </div>
     </Router>
