@@ -6,8 +6,8 @@ import GioiThieuContainer from "./components/APPEND/GioiThieu_container";
 import VeChungToiContainer from "./components/APPEND/VeChungToi_container";
 import LienHeContainer from "./components/APPEND/LienHe_container";
 import MangXaHoiToiContainer from "./components/APPEND/MangXaHoi_container";
-import Math1_container from "./components/MATH1/math1_container";
-
+import MathClassContainer from "./components/MATH1/math_class_container";
+import { math_class_data } from "./math_class_data";
 const AppRouter = () => {
   return (
     <Router>
@@ -19,8 +19,20 @@ const AppRouter = () => {
           <Route path="/introduction" element={<GioiThieuContainer />} />{" "}
           <Route path="/contact" element={<LienHeContainer />} />{" "}
           <Route path="/MathHome" element={<Introduction />} />{" "}
-          <Route path="/toan1" element={<Math1_container />} />{" "}
-          <Route path="/toan1/toan1_page2" element={<Math1_container />} />{" "}
+          {console.log(math_class_data)}
+          {math_class_data.map((item, index) => (
+            <Route
+              key={index}
+              path={`/${item.link_to}`}
+              element={
+                <MathClassContainer
+                  title={item.title}
+                  background_image={item.background_image}
+                  data={item.class_content}
+                />
+              }
+            />
+          ))}
         </Routes>
       </div>
     </Router>
