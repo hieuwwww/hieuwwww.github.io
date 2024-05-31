@@ -13,8 +13,6 @@ const AppRouter = () => {
     <Router>
       <div>
         <Routes>
-          <Route path="/" exact element={<Home />} />{" "}
-          <Route path="/test" exact element={<Header />} />{" "}
           <Route path="/" exact element={<Homepage />} />{" "}
           <Route path="/aboutus" element={<VeChungToiContainer />} />{" "}
           <Route path="/social" element={<MangXaHoiToiContainer />} />{" "}
