@@ -1,46 +1,46 @@
 .container_gioithieu {
-    background-color: rgba(0, 0, 0, 0.6);
-    display: flex;
-    position: fixed;
-    flex-direction: column;
-    bottom: 0;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 11;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  bottom: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 11;
 }
 
 .inside_gioithieu {
-    justify-items: center;
-    text-align: center;
-    position: fixed;
-    bottom: 0;
-    z-index: 12;
-    top: 0;
-    right: 12%;
-    border-radius: 20px;
-    box-shadow: 0 0 10px greenyellow;
-    left: 12%;
-    margin: 5% 0;
-    background-image: url("C:\tro\mathonline\public\pics\background.webp");
-    background-size: cover;
+  justify-items: center;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  z-index: 12;
+  top: 0;
+  right: 12%;
+  border-radius: 20px;
+  box-shadow: 0 0 10px greenyellow;
+  left: 12%;
+  margin: 5% 0;
+  background-image: url("/public/pics/background.webp");
+  background-size: cover;
 }
 
-.inside_gioithieu h1 {}
+.inside_gioithieu h1 {
+}
 
 .inside_gioithieu ul {
-    display: flex;
-    flex-direction: column;
-    text-align: left;
-    margin-left: 20%;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin-left: 20%;
 
-    font-size: 19px;
-
+  font-size: 19px;
 }
 
 .inside_gioithieu ul li {
-    list-style-type: disc;
-    margin-top: 5%;
-    max-width: 80%;
-    line-height: 25px;
+  list-style-type: disc;
+  margin-top: 5%;
+  max-width: 80%;
+  line-height: 25px;
 }
