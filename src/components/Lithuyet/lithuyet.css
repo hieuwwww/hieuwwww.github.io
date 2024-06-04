@@ -1,0 +1,91 @@
+.container_lithuyet {
+    margin-left: 18.5%;
+    width: 80%;
+    height: 2000px;
+    margin-top: 8.5%;
+}
+
+#container_video_lithuyet {
+    width: 80%;
+    height: 400px;
+    position: fixed;
+    transition: ease-out 0.5s;
+    z-index: 8;
+}
+
+#container_video_lithuyet.shrink {
+    width: 80%;
+    box-shadow: 0 0 10px rgb(73, 72, 72);
+    height: 10%;
+
+}
+
+.container_tieude_lithuyet {
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+}
+
+.container_noidung_lithuyet {}
+
+.li_title {
+    font-weight: bold;
+    font-size: 23px;
+}
+
+#noidungLithuyet {
+    position: absolute;
+    margin-top: 40%;
+    z-index: 7;
+    margin-left: 3%;
+}
+
+#noidungLithuyet ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.container_noidung_lithuyet ul h2 {
+    margin-top: 0px;
+    color: #488dc7;
+    padding-bottom: 10px;
+
+    border-bottom: 2px solid rgb(55, 58, 55);
+
+}
+
+
+.container_noidung_lithuyet img {
+    width: 800px;
+    margin-left: 17%;
+    height: 550px;
+}
+
+.containerBlooket {
+    display: flex;
+    width: 100px;
+    height: 100px;
+    text-wrap: nowrap;
+    justify-content: center;
+    margin: 5% 0 5% 20%;
+}
+
+.containerBlooket:hover .clicktoplay {
+    opacity: 1;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    color: #FFFFFF;
+}
+
+.clicktoplay {
+    margin-left: 35px;
+    transition: 0.5s ease-in-out;
+    opacity: 0;
+    height: 30px;
+    text-align: center;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+    font-size: 18px;
+    background-color: #488dc7;
+}

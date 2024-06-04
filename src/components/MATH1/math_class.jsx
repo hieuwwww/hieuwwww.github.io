@@ -26,6 +26,7 @@ export default function MathClass({ title, background_image, data }) {
               title={item.title}
               video_link={item.video_link}
               ly_thuyet={item.ly_thuyet}
+
             />
           ))}
       </div>

@@ -6,7 +6,8 @@
     height: 280px;
     box-shadow: 2px 2px 6px black;
     border-radius: 10px;
-    background-image: url('/public/pics/khungnen.webp');
+    /* background-image: url('/public/pics/khungnen.webp'); */
+    background-image: linear-gradient(60deg, #488dc7, #17c7ea);
     margin-top: 5%;
     background-size: contain;
     margin-right: 5%;
@@ -38,8 +39,10 @@
     margin-top: 3%;
     cursor: pointer;
     border: 1px solid black;
-
+    text-wrap: nowrap;
     opacity: 0.5;
+
+    font-size: 15.3px;
 }
 
 .button_lithuyet:hover {
@@ -49,12 +52,20 @@
 
 .container_video_icon {
     text-align: center;
-    background-image: url("/public/pics/1.jpg");
+    /* background-image: url("/public/pics/1.jpg"); */
     background-size: cover;
     height: 70%;
     margin-top: 10%;
     margin-bottom: 10%;
 
+}
+
+.trollvn {
+    position: fixed;
+    width: 80%;
+    height: 80%;
+    top: 10%;
+    left: 10%;
 }
 
 .container_video_icon p {
@@ -65,9 +76,20 @@
 .container_video_text p {
     max-width: 190px;
     margin-left: 3%;
+    min-width: 190px;
+}
+
+.container_video_text {
+    min-height: 70px;
+
 }
 
 .container_video_icon img {
+    flex: 1;
+
+}
+
+.container_video_icon iframe {
     flex: 1;
 
 }
