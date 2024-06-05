@@ -1,7 +1,6 @@
 import "./videomath.css";
 import { Link } from "react-router-dom";
 export default function VIDEO({ title, video_link, ly_thuyet }) {
-  console.log(ly_thuyet);
   return (
     <div className="container_video">
       <div className="container_video_icon" id="mydiv">

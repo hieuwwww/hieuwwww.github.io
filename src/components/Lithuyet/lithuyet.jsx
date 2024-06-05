@@ -1,8 +1,8 @@
 import './lithuyet.css'
 import React, { useEffect } from 'react';
-import { dataLiThuyet1 } from './lithuyet_data';
+// import { dataLiThuyet1 } from './lithuyet_data';
 
-export default function Lithuyet(props) {
+export default function Lithuyet({ src, data }) {
     useEffect(() => {
         const handleScroll = () => {
             var div = document.getElementById('container_video_lithuyet');
@@ -16,6 +16,7 @@ export default function Lithuyet(props) {
                 }
             }
         };
+        // console.log(data);
 
         window.addEventListener('scroll', handleScroll);
 
@@ -24,14 +25,18 @@ export default function Lithuyet(props) {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
+
+    console.log(data);
     return (
+
         <div className='container_lithuyet' >
+
             <div id='container_video_lithuyet' >
-                <iframe className="videoYT" width="100%" height="100%" src={props.src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                <iframe className="videoYT" width="100%" height="100%" src={src} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
             </div>
             <div id='noidungLithuyet' className="container_noidung_lithuyet">
                 <ul>
-                    {dataLiThuyet1.map(e => {
+                    {data && data.map(e => {
                         return (
                             <>
                                 <h2 key={e.title.toString()}>{e.title}</h2>
@@ -57,11 +62,6 @@ export default function Lithuyet(props) {
 
                                     );
                                 })}
-
-
-                                <div className='blooket'>
-
-                                </div>
                             </>
                         );
 

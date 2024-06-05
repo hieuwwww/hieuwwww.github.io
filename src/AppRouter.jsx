@@ -10,7 +10,8 @@ import MathClassContainer from "./components/MATH1/math_class_container";
 import { math_class_data } from "./math_class_data";
 
 import LiThuyetContainer from "./components/Lithuyet/lithuyet_container";
-import { container_lithuyet } from "./components/Lithuyet/lithuyet_data";
+import { lithuyet_container } from "./components/Lithuyet/lithuyet_data";
+
 const AppRouter = () => {
   return (
     <Router>
@@ -39,18 +40,29 @@ const AppRouter = () => {
               }
             />
           ))}
-          {container_lithuyet.map((e, index) => {
-            { console.log(e) }
-            // cái kia log ở file nào v lou tắt đi what chu mean 
+          {lithuyet_container.map((e, index) => {
+            //e = datalithuyet1->6
+
             return (
+              //data1 -> ee = data1_1 -> 1_9
               <>
-                {e.class_content.map((current, indec) => (
-                  current.pathname.map((i, ind) => (
-                    <Route key={indec} path={`/${i}`} element={<LiThuyetContainer src={current.srcvideo[ind]} />} />
-                  ))
+                {e.map((ee, index) => {
+                  return (
+                    <>
+                      {ee.map((eee, indexx) => {
+                        return (
+                          <>
+                            <Route path={eee.pathname} element={<LiThuyetContainer data={eee} src={eee.srcvideo} />} />{" "}
+                            {/* {console.log(eee)} */}
 
-                ))}
+                          </>
+                        );
+                      })}
 
+
+                    </>
+                  );
+                })}
 
               </>
             );

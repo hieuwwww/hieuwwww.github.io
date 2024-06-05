@@ -4,7 +4,6 @@ import csss from "./math1.module.css";
 import VIDEO from "./videomath";
 
 export default function MathClass({ title, background_image, data }) {
-  console.log(data);
   return (
     <div style={{ marginLeft: "25%", marginTop: "8%" }}>
       <h2
