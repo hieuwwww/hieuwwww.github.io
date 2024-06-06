@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/mathonline/static/css/main.68eaeab1.css",
+    "main.js": "/mathonline/static/js/main.86076a36.js",
+    "static/js/453.a0714d0a.chunk.js": "/mathonline/static/js/453.a0714d0a.chunk.js",
+    "static/media/background.webp": "/mathonline/static/media/background.266b94074942419cc5eb.webp",
+    "static/media/meo.jpg": "/mathonline/static/media/meo.aac92ea630608ea7e97e.jpg",
+    "index.html": "/mathonline/index.html",
+    "main.68eaeab1.css.map": "/mathonline/static/css/main.68eaeab1.css.map",
+    "main.86076a36.js.map": "/mathonline/static/js/main.86076a36.js.map",
+    "453.a0714d0a.chunk.js.map": "/mathonline/static/js/453.a0714d0a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68eaeab1.css",
+    "static/js/main.86076a36.js"
+  ]
+}
