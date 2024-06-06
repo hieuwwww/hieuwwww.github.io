@@ -52,7 +52,7 @@ const AppRouter = () => {
                       {ee.map((eee, indexx) => {
                         return (
                           <>
-                            <Route path={eee.pathname} element={<LiThuyetContainer data={eee} src={eee.srcvideo} />} />{" "}
+                            <Route path={eee.pathname} element={<LiThuyetContainer data={eee} src={eee.srcvideo} linkpath={eee.topath} />} />{" "}
                             {/* {console.log(eee)} */}
 
                           </>
