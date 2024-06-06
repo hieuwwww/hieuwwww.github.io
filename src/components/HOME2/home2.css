@@ -1,0 +1,14 @@
+.home2-video {
+  margin-top: 300px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+video {
+  width: 80%;
+  height: 55%;
+  box-shadow: 0 0 10px rgb(121, 177, 223);
+  border-radius: 15px;
+}
