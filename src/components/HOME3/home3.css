@@ -33,8 +33,9 @@
   margin-top: 15px;
 }
 
-img {
+.container_home3 img {
   height: 210px;
+  min-height: 210px;
   width: 320px;
   border-radius: 10px;
 }
