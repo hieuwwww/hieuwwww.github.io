@@ -1,8 +1,5 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import GioiThieu from "../APPEND/GioiThieu";
-import Home3 from "../HOME3/home3";
-import GioiThieuContainer from "../APPEND/GioiThieu_container";
 const NavBar = () => {
   const c1 = {
     color: "#fff",
@@ -25,8 +22,7 @@ const NavBar = () => {
   };
   const [append, setAppend] = useState(false);
   function isAppend() {
-    setAppend(!append)
-
+    setAppend(!append);
   }
   return (
     <div className="container_math">
@@ -34,12 +30,14 @@ const NavBar = () => {
         <i className="fa-solid fa-m fa-bounce" style={c1}></i>
         <i className="fa-solid fa-a" style={c2}></i>
         <i className="fa-solid fa-t" style={c4}></i>
-        <i className="fa-solid fa-square-h fa-beat" style={c3}> </i>
+        <i className="fa-solid fa-square-h fa-beat" style={c3}>
+          {" "}
+        </i>
       </Link>
 
       <span className="container_li">
         <ul>
-          <Link to="/introduction" >Giới thiệu</Link>
+          <Link to="/introduction">Giới thiệu</Link>
           <Link to="/aboutus">Về chúng tôi</Link>
           <Link to="/social">Mạng xã hội</Link>
           <Link to="/contact">Liên hệ</Link>
@@ -53,8 +51,6 @@ const NavBar = () => {
           </span>
         </ul>
       </span>
-
-
     </div>
   );
 };
