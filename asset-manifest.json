@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/mathonline/static/css/main.68eaeab1.css",
-    "main.js": "/mathonline/static/js/main.acd08d9a.js",
-    "static/js/453.a0714d0a.chunk.js": "/mathonline/static/js/453.a0714d0a.chunk.js",
-    "static/media/background.webp": "/mathonline/static/media/background.266b94074942419cc5eb.webp",
-    "static/media/meo.jpg": "/mathonline/static/media/meo.aac92ea630608ea7e97e.jpg",
-    "index.html": "/mathonline/index.html",
-    "main.68eaeab1.css.map": "/mathonline/static/css/main.68eaeab1.css.map",
-    "main.acd08d9a.js.map": "/mathonline/static/js/main.acd08d9a.js.map",
-    "453.a0714d0a.chunk.js.map": "/mathonline/static/js/453.a0714d0a.chunk.js.map"
+    "main.css": "/static/css/main.aa6f6d44.css",
+    "main.js": "/static/js/main.1a596ac3.js",
+    "static/js/453.a0714d0a.chunk.js": "/static/js/453.a0714d0a.chunk.js",
+    "static/media/background.webp": "/static/media/background.266b94074942419cc5eb.webp",
+    "static/media/meo.jpg": "/static/media/meo.aac92ea630608ea7e97e.jpg",
+    "index.html": "/index.html",
+    "main.aa6f6d44.css.map": "/static/css/main.aa6f6d44.css.map",
+    "main.1a596ac3.js.map": "/static/js/main.1a596ac3.js.map",
+    "453.a0714d0a.chunk.js.map": "/static/js/453.a0714d0a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.68eaeab1.css",
-    "static/js/main.acd08d9a.js"
+    "static/css/main.aa6f6d44.css",
+    "static/js/main.1a596ac3.js"
   ]
 }
