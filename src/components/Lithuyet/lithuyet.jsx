@@ -17,13 +17,32 @@ export default function Lithuyet({ src, data, linkpath }) {
                 }
             }
         };
+        var div2 = document.getElementById("scrollAppend");
+        const handleScroll2 = () => {
+            if (div2) {
+                var cuon = window.scrollY || window.pageYOffset;
+                if (cuon > 3500) {
+                    div2.classList.add('hidden');
+                }
+            }
+
+        }
+        var variableClick = document.getElementById('clickonit');
+        var handleClickOnIt = () => {
+            div2.classList.remove('hidden');
+            window.removeEventListener("scroll", handleScroll2);
+        }
 
         window.addEventListener("scroll", handleScroll);
+        window.addEventListener("scroll", handleScroll2);
+        variableClick.addEventListener("click", handleClickOnIt);
 
         // Dọn dẹp sự kiện cuộn khi component unmount
         return () => {
             window.removeEventListener("scroll", handleScroll);
+            window.removeEventListener("scroll", handleScroll2);
         };
+
 
     }, []);
     const handleMouseon = () => {
@@ -44,8 +63,11 @@ export default function Lithuyet({ src, data, linkpath }) {
     const handleClickout = () => {
         setOpacity('none');
     };
+
+
     return (
         <div className="container_lithuyet" >
+
             <div id="container_video_lithuyet">
                 <iframe
                     className="videoYT"
@@ -59,6 +81,7 @@ export default function Lithuyet({ src, data, linkpath }) {
                     allowFullScreen
                 ></iframe>
             </div>
+            <div id="scrollAppend" style={{ marginLeft: '11%', marginTop: '2%', position: 'fixed' }}><p id="clickonit" >Close</p></div>
             <div id="noidungLithuyet" className="container_noidung_lithuyet" style={{ minWidth: '75%', maxWidth: '75%' }}>
                 <ul>
                     <li>

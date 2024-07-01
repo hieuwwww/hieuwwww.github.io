@@ -63,13 +63,13 @@ const class_content_1 = [
   {
     title: "Chương 2 - Bài 6: Xem giờ đúng trên đồng hồ",
     video_link: "https://www.youtube.com/embed/x5CNJUMJcII?si=Qy7mBDe28QUHZJ4C",
-    ly_thuyet: "/toan1/clip10",
+    ly_thuyet: "/toan1/clip11",
 
   },
   {
     title: "Chương 2 - Bài 7: Các ngày trong tuần",
     video_link: "https://www.youtube.com/embed/x5CNJUMJcII?si=Qy7mBDe28QUHZJ4C",
-    ly_thuyet: "/toan1/clip10",
+    ly_thuyet: "/toan1/clip12",
 
   },
 
@@ -77,49 +77,114 @@ const class_content_1 = [
 
 const class_content_2 = [
   {
-    title: "Bài 1: khái niệm - luyện tập vận dụng 3 - toán 1 | mathfun",
+    title: "Học kì 1 - Bài 1: Tia số. Số liền trước, số liền sau ",
     video_link: "",
     ly_thuyet: "/toan2/clip1",
   },
   {
-    title: "Bài 2",
+    title: "Học kì 1 - Bài 2: Các thành phần của phép cộng, phép trừ",
     video_link: "",
     ly_thuyet: "/toan2/clip2",
   },
   {
-    title: "Bài 3",
+    title: "Học kì 1 - Bài 3:  Hơn, kém nhau bao nhiêu",
     video_link: "",
     ly_thuyet: "/toan2/clip3",
   },
   {
-    title: "Bài 4",
+    title: "Học kì 1 - Bài 4: Phép cộng, trừ (qua 10) trong phạm vi 20",
     video_link: "",
     ly_thuyet: "/toan2/clip4",
   },
   {
-    title: "Bài 5",
+    title: "Học kì 1 - Bài 5: Bảng cộng,trừ (qua 10)",
     video_link: "",
     ly_thuyet: "/toan2/clip5",
   },
   {
-    title: "Bài 6",
+    title: "Học kì 1 - Bài 6: Bài toán về thêm, bớt một số đơn vị",
     video_link: "",
     ly_thuyet: "/toan2/clip6",
   },
   {
-    title: "Bài 7",
+    title: "Học kì 1 - Bài 7:  Ki-lô-gam , Lít",
     video_link: "",
     ly_thuyet: "/toan2/clip7",
   },
   {
-    title: "Bài 8",
+    title: "Học kì 1 - Bài 8: Phép cộng,trừ (có nhớ) số có hai chữ số với số có một chữ số",
     video_link: "",
     ly_thuyet: "/toan2/clip8",
   },
   {
-    title: "Bài 9",
+    title: "Học kì 1 - Bài 9: Ngày - giờ, giờ - phút",
     video_link: "",
     ly_thuyet: "/toan2/clip9",
+  },
+  {
+    title: "Học kì 2 - Bài 10: Phép nhân, Thừa số , Tích",
+    video_link: "",
+    ly_thuyet: "/toan2/clip10",
+  },
+  {
+    title: "Học kì 2 - Bài 11: Phép chia, Số bị chia, số chia, thương",
+    video_link: "",
+    ly_thuyet: "/toan2/clip11",
+  },
+  {
+    title: "Học kì 2 - Bài 12: Bảng nhân, chia 2 và 5",
+    video_link: "",
+    ly_thuyet: "/toan2/clip12",
+  },
+  {
+    title: "Học kì 2 - Bài 13: Khối trụ, khối cầu",
+    video_link: "",
+    ly_thuyet: "/toan2/clip13",
+  },
+  {
+    title: "Học kì 2 - Bài 14: Đơn vị, chục, trăm, nghìn, Các số tròn trăm, tròn chục",
+    video_link: "",
+    ly_thuyet: "/toan2/clip14",
+  },
+  {
+    title: "Học kì 2 - Bài 15: So sánh các số, tròn trăm, tròn chục",
+    video_link: "",
+    ly_thuyet: "/toan2/clip15",
+  },
+  {
+    title: "Học kì 2 - Bài 16: Số có ba chữ số, So sánh các số có ba chữ số",
+    video_link: "",
+    ly_thuyet: "/toan2/clip16",
+  },
+  {
+    title: "Học kì 2 - Bài 17: Viết số thành tổng các trăm, chục, đơn vị",
+    video_link: "",
+    ly_thuyet: "/toan2/clip17",
+  },
+  {
+    title: "Học kì 2 - Bài 18: Đề-xi-mét, mét, ki-lô-mét, Giới thiệu tiền Việt Nam",
+    video_link: "",
+    ly_thuyet: "/toan2/clip18",
+  },
+  {
+    title: "Học kì 2 - Bài 19: Phép cộng, trừ trong phạm vi 1000",
+    video_link: "",
+    ly_thuyet: "/toan2/clip19",
+  },
+  {
+    title: "Học kì 2 - Bài 20: Viết số thành tổng các trăm, chục, đơn vị",
+    video_link: "",
+    ly_thuyet: "/toan2/clip20",
+  },
+  {
+    title: "Học kì 2 - Bài 21: Thu thập, phân loại, kiểm đếm số liệu",
+    video_link: "",
+    ly_thuyet: "/toan2/clip21",
+  },
+  {
+    title: "Học kì 2 - Bài 22: Chắc chắn, có thể, không thể",
+    video_link: "",
+    ly_thuyet: "/toan2/clip22",
   },
 ];
 const class_content_3 = [

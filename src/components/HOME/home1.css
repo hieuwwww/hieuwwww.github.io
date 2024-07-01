@@ -16,6 +16,8 @@ h1 {
   padding: 10px;
 }
 
+.item_home1 {}
+
 .item_home1 a:hover {
-  box-shadow: 0 1px 10px rgba(50, 49, 49, 0.5);
+  padding: 5px;
 }
