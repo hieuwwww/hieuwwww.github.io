@@ -3,10 +3,11 @@ import './DivSlider.css'
 
 export default function DivSlider() {
     const imageArray = [
-        "/pics/slide1.jpg",
-        "/pics/slide2.jpg",
-        "/pics/slide3.jpg",
-        "/pics/slide4.jpg",
+        "/pics/1.png",
+        "/pics/2.png",
+        "/pics/3.png",
+        "/pics/4.png",
+        "/pics/5.png",
     ]
     const [currentImageIndex, setCurrentImageIndex] = useState(1);
     useEffect(() => {
@@ -33,9 +34,9 @@ export default function DivSlider() {
     return (
         <div className='container_divslider'>
             <p className='arrowslide backslide' onClick={prevImage}><i className="fa-solid fa-chevron-right fa-flip-horizontal"></i></p>
-            {/* <img src="/pics/slide1.jpg" alt="a1" className='active_slide' />
-            <img src="/pics/slide2.jpg" alt="a2" />
-            <img src="/pics/slide3.jpg" alt="a3" />
+            {/* <img src="/pics/1.png" alt="a1" className='active_slide' />
+            <img src="/pics/2.png" alt="a2" />
+            <img src="/pics/3.png" alt="a3" />
             <img src="/pics/nentoanlop1.jpg" alt="a4" />
             <img src="/pics/meo.jpg" alt="a5" />
             <img src="/pics/vechungtoi.jpg" alt="a6" /> */}

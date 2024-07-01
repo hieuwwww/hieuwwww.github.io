@@ -45,6 +45,7 @@ const AppRouter = () => {
                   path={eee.pathname}
                   element={
                     <LiThuyetContainer
+                      key={eee.topath}
                       data={eee}
                       src={eee.srcvideo}
                       linkpath={eee.topath}

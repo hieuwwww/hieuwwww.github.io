@@ -2,6 +2,7 @@ import "./home3.css";
 import { Link } from 'react-router-dom';
 export default function Home3({ src }) {
   const toleft = { left: '0' }
+
   return (
     <div className="container_home3">
       <h1 style={{ color: '#ffffff', marginBottom: '50px' }}>Học tập đa dạng - hiệu quả</h1>

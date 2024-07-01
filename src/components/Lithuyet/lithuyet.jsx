@@ -45,7 +45,7 @@ export default function Lithuyet({ src, data, linkpath }) {
         setOpacity('none');
     };
     return (
-        <div className="container_lithuyet">
+        <div className="container_lithuyet" >
             <div id="container_video_lithuyet">
                 <iframe
                     className="videoYT"
@@ -59,7 +59,7 @@ export default function Lithuyet({ src, data, linkpath }) {
                     allowFullScreen
                 ></iframe>
             </div>
-            <div id="noidungLithuyet" className="container_noidung_lithuyet">
+            <div id="noidungLithuyet" className="container_noidung_lithuyet" style={{ minWidth: '75%', maxWidth: '75%' }}>
                 <ul>
                     <li>
                         <h2>{data.title}</h2>
@@ -67,18 +67,34 @@ export default function Lithuyet({ src, data, linkpath }) {
                             <div key={subIndex}>
                                 <h3>{subtitle}</h3>
                                 {subIndex < data.noidung.length && (
-                                    <p>{data.noidung[subIndex]}</p>
+                                    <>
+
+                                        {/* <p>{data.noidung[subIndex]}</p> */}
+
+                                        {data.noidung[subIndex].map((noidungcon, indxx) => (
+                                            <>
+
+                                                <p style={{ marginLeft: '0', color: 'black', fontStyle: 'italic', fontFamily: 'Montserrat sans-serif', fontSize: '22px' }}>{noidungcon}</p>
+                                                <ul style={{}}>
+
+                                                    {data.subNoidung[subIndex][indxx].map((e) => (<li key={e} style={{ listStyleType: 'initial', fontSize: '18px', lineHeight: '30px' }}>{e}</li>))}
+
+                                                </ul>
+                                            </>
+
+                                        ))}
+                                    </>
                                 )}
 
-                                {lightbox && (
-                                    <a id="backLink" href={data.srcpic[subIndex]} target="_blank" ><img src={data.srcpic[subIndex]} alt={subtitle} /></a>
-                                )
+
+                                <a id="backLink" href={data.srcpic[subIndex]} target="_blank" ><img src={data.srcpic[subIndex]} alt={subtitle} /></a>
 
 
-                                }
 
 
-                                <p style={{ color: "#488dc7", textAlign: "center" }}>
+
+
+                                <p style={{ color: "#488dc7", marginLeft: '50%', marginRight: '0', maxWidth: '153px', textWrap: 'nowrap' }}>
                                     Hình ảnh minh họa
                                 </p>
                                 <div className="containerBlooket">
@@ -100,9 +116,9 @@ export default function Lithuyet({ src, data, linkpath }) {
                         ))}
                     </li>
                 </ul>
-                <Link to={linkpath}>
-                    <div className="hoanthanh" style={{ width: '25%', bottom: '0', backgroundColor: 'red' }}>
-                        <p>Hoàn thành bài học <i className="fa-solid fa-check"></i></p>
+                <Link key={linkpath} to={linkpath}>
+                    <div className="hoanthanh" style={{ width: '25%', bottom: '0', backgroundColor: 'red', marginLeft: '43%' }}>
+                        <p >Hoàn thành bài học <i className="fa-solid fa-check"></i></p>
                     </div>
                 </Link>
             </div>
