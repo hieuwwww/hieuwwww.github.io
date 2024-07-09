@@ -43,10 +43,10 @@ const NavBar = () => {
           <Link to="/contact">Liên hệ</Link>
           <span className="dnhap_dki">
             <li>
-              <a href="">Đăng kí</a>
+              <a href=""><i className="fa-brands fa-tiktok"></i></a>
             </li>
             <li>
-              <a href="">Đăng nhập</a>
+              <a href=""><i className="fa-brands fa-facebook"></i></a>
             </li>
           </span>
         </ul>

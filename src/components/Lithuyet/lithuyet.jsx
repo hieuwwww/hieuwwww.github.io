@@ -16,6 +16,7 @@ export default function Lithuyet({ src, data, linkpath }) {
                     div.classList.remove("shrink");
                 }
             }
+
         };
         var div2 = document.getElementById("scrollAppend");
         const handleScroll2 = () => {
@@ -32,7 +33,11 @@ export default function Lithuyet({ src, data, linkpath }) {
             div2.classList.remove('hidden');
             window.removeEventListener("scroll", handleScroll2);
         }
-
+        const handleClick1 = () => {
+            window.scrollTo({ top: '0', behavior: 'smooth' })
+        }
+        var hoanthanh = document.getElementById("hoanthanhbaihoc");
+        hoanthanh.addEventListener("click", handleClick1);
         window.addEventListener("scroll", handleScroll);
         window.addEventListener("scroll", handleScroll2);
         variableClick.addEventListener("click", handleClickOnIt);
@@ -41,20 +46,13 @@ export default function Lithuyet({ src, data, linkpath }) {
         return () => {
             window.removeEventListener("scroll", handleScroll);
             window.removeEventListener("scroll", handleScroll2);
+            hoanthanh.removeEventListener("click", handleClick1);
+            variableClick.removeEventListener("click", handleClickOnIt);
         };
 
 
     }, []);
-    const handleMouseon = () => {
-        var x = document.getElementById('trollvn');
-        return (
-            x.style.opacity(1)
-        );
-    }
-    var [lightbox, setLightbox] = useState(true);
-    function handleOnclick() {
-        setLightbox(!lightbox);
-    }
+
     const [opacity, setOpacity] = useState('none');
 
     const handleClick = () => {
@@ -81,14 +79,14 @@ export default function Lithuyet({ src, data, linkpath }) {
                     allowFullScreen
                 ></iframe>
             </div>
-            <div id="scrollAppend" style={{ marginLeft: '11%', marginTop: '2%', position: 'fixed' }}><p id="clickonit" >Close</p></div>
+            <div id="scrollAppend" style={{ marginLeft: '11%', marginTop: '-3%', position: 'fixed' }}><p id="clickonit" >Close</p></div>
             <div id="noidungLithuyet" className="container_noidung_lithuyet" style={{ minWidth: '75%', maxWidth: '75%' }}>
                 <ul>
                     <li>
-                        <h2>{data.title}</h2>
+                        <h2 style={{ fontFamily: 'sans-serif', fontSize: '33.5px', textShadow: '1px 1px 0 black' }}>{data.title}</h2>
                         {data.subtitle.map((subtitle, subIndex) => (
-                            <div key={subIndex}>
-                                <h3>{subtitle}</h3>
+                            <div key={subIndex} style={{ fontFamily: 'sans-serif' }}>
+                                <h3 style={{ marginTop: '7%', fontFamily: 'sans-serif', fontSize: '27.7px', color: '#444444' }}>{subtitle}</h3>
                                 {subIndex < data.noidung.length && (
                                     <>
 
@@ -97,10 +95,10 @@ export default function Lithuyet({ src, data, linkpath }) {
                                         {data.noidung[subIndex].map((noidungcon, indxx) => (
                                             <>
 
-                                                <p style={{ marginLeft: '0', color: 'black', fontStyle: 'italic', fontFamily: 'Montserrat sans-serif', fontSize: '22px' }}>{noidungcon}</p>
-                                                <ul style={{}}>
+                                                <p style={{ marginLeft: '0', color: 'black', fontWeight: 'bold', color: '#555555', fontFamily: 'sans-serif', fontSize: '20px', lineHeight: '32px' }}>{noidungcon}</p>
+                                                <ul style={{ fontFamily: 'sans-serif' }}>
 
-                                                    {data.subNoidung[subIndex][indxx].map((e) => (<li key={e} style={{ listStyleType: 'initial', fontSize: '18px', lineHeight: '30px' }}>{e}</li>))}
+                                                    {data.subNoidung[subIndex][indxx].map((e) => (<li key={e} style={{ listStyleType: 'initial', fontSize: '18px', lineHeight: '38px' }}>{e}</li>))}
 
                                                 </ul>
                                             </>
@@ -140,7 +138,7 @@ export default function Lithuyet({ src, data, linkpath }) {
                     </li>
                 </ul>
                 <Link key={linkpath} to={linkpath}>
-                    <div className="hoanthanh" style={{ width: '25%', bottom: '0', backgroundColor: 'red', marginLeft: '43%' }}>
+                    <div className="hoanthanh" id="hoanthanhbaihoc" style={{ width: '25%', bottom: '0', backgroundColor: 'red', marginLeft: '43%' }}>
                         <p >Hoàn thành bài học <i className="fa-solid fa-check"></i></p>
                     </div>
                 </Link>

@@ -198,11 +198,11 @@ const dataLiThuyetlop1_1 = [
 
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/667691ff86a83baf46ed5800',
+            'https://dashboard.blooket.com/set/667691ff86a83baf46ed5800',
+            'https://dashboard.blooket.com/set/667691ff86a83baf46ed5800',
+            'https://dashboard.blooket.com/set/667691ff86a83baf46ed5800',
+            'https://dashboard.blooket.com/set/667691ff86a83baf46ed5800',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
@@ -214,7 +214,7 @@ const dataLiThuyetlop1_1 = [
         pathname:
             '/toan1/clip1',
         srcvideo:
-            "https://www.youtube.com/embed/0vVLAXQUF5s?si=2Fp42AMRmESL8Qm1",
+            "https://www.youtube.com/embed/723EmWGUjH4?si=NZDsXQoJuUirFS-u",
         topath: '/toan1'
     },
 ]
@@ -265,7 +265,7 @@ const dataLiThuyetlop1_2 = [
         pathname:
             '/toan1/clip2',
         srcvideo:
-            "https://www.youtube.com/embed/Cnb32kAqV0A?si=tyZnJ1IsCdppn9sf",
+            "https://www.youtube.com/embed/u9_V7TMcIBQ?si=KG9_3R6oUtwkwh8V",
         topath: '/toan1'
 
     }
@@ -1910,47 +1910,153 @@ const dataLiThuyetlop2_9 = [
 ]
 const dataLiThuyetlop2_10 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 10: Phép nhân, Thừa số , Tích',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Phép Nhân',
+            '2. Thừa Số',
+            '3. Tích',
+            '4. Ví dụ Cụ Thể',
+            '5. Một Số Bài Tập Thực Hành',
+            '6. Mẹo Giúp Nhớ Phép Nhân',
+            '7. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            [''], [''], [''], ['Ví dụ 1: 2 x 5', 'Ví dụ 2: 4 x 3'], ['Tìm tích của các phép nhân sau:', 'Xác định thừa số và tích trong các phép tính sau:', 'Hoàn thành các phép nhân sau:'], [''], []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
+                ['Định nghĩa: Phép nhân là một phép tính toán học dùng để cộng một số với chính nó một số lần. Ví dụ: 3 x 4 có nghĩa là cộng 3 với chính nó 4 lần (3 + 3 + 3 + 3).',
+                    'Ký hiệu: Phép nhân thường được biểu thị bằng dấu "x".'
+                ],
 
             ]
+            , [
+                ['Định nghĩa: Thừa số là các số được nhân với nhau trong một phép nhân.',
+                    'Ví dụ: Trong phép tính 3 x 4 = 12, số 3 và số 4 được gọi là thừa số.'
+                ],
+
+            ]
+            , [
+                ['Định nghĩa: Tích là kết quả của một phép nhân.', 'Ví dụ: Trong phép tính 3 x 4 = 12, số 12 được gọi là tích.',]
+            ]
+            , [
+                ['Giải thích: 2 x 5 có nghĩa là cộng số 2 với chính nó 5 lần.',
+                    'Cách tính: 2 + 2 + 2 + 2 + 2 = 10',
+                    'Thừa số: 2 và 5',
+                    'Tích: 10'
+                ],
+                [
+                    'Giải thích: 4 x 3 có nghĩa là cộng số 4 với chính nó 3 lần.',
+                    'Cách tính: 4 + 4 + 4 = 12',
+                    'Thừa số: 4 và 3',
+                    'Tích: 12'
+                ]
+            ]
+            , [
+                ['3 x 4 = ?', '6 x 2 = ?', '5 x 5 = ?'], ['7 x 3 = 21', 'Thừa số: 7 và 3', 'Tích: 21', '8 x 2 = 16', 'Thừa số: 8 và 2', 'Tích: 16'], ['2 x 6 = ?', '9 x 1 = ?', '4 x 3 = ?']
+            ],
+            [['Bảng cửu chương: Học sinh nên học thuộc bảng cửu chương từ 1 đến 10 để làm quen với các phép nhân cơ bản.',
+                'Sử dụng đồ chơi và hình ảnh: Sử dụng các đồ chơi như que tính, hình vẽ để minh họa các phép nhân.',
+                'Luyện tập thường xuyên: Thực hành các bài tập phép nhân hàng ngày để ghi nhớ tốt hơn.'
+            ]],
+            [[]]
         ],
 
         srcpic: [
-            '/pics/ngaygiophut1.jpg',
-            '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
+            '/pics/nhan1.jpg',
+            '/pics/nhan2.png',
+            '/pics/nhan3.jpg',
+            '/pics/nhan4.png',
+            '/pics/nhan5.jpg',
+            '/pics/nhan6.png',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50',
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50',
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50',
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50',
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50',
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50',
+            'https://dashboard.blooket.com/set/6677f4fd9d592941df53de50'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+        ],
+        pathname: '/toan2/clip10',
+        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+    }
+]
+const dataLiThuyetlop2_11 = [
+    {
+        title: '11. Phép chia, Số bị chia, số chia, thương',
+        subtitle: [
+            '1. Phép Chia',
+            '2. Số Bị Chia',
+            '3. Số Chia',
+            '4. Thương',
+            '5. Ví dụ Cụ Thể',
+            '6. Một Số Bài Tập Thực Hành',
+            '7. Mẹo Giúp Nhớ Phép Chia',
+            '8. Luyện tập',
+        ],
+        noidung: [
+            [''], [''], [''], [''], ['Ví dụ 1: 15 : 3', 'Ví dụ 2: 20 : 4',], ['Tìm thương của các phép chia sau:', 'Xác định số bị chia, số chia, và thương trong các phép tính sau:', 'Hoàn thành các phép chia sau:'], [''], []
+        ],
 
+        subNoidung: [
+            [
+                ['Định nghĩa: Phép chia là phép tính toán học để chia một số thành các phần bằng nhau. Ví dụ: 12 chia cho 3 có nghĩa là chia 12 thành 3 phần bằng nhau.',
+                    'Ký hiệu: Phép chia thường được biểu thị bằng dấu ":" hoặc "÷".'
+                ]
+            ],
+            [
+                ['Định nghĩa: Số bị chia là số bị chia thành các phần bằng nhau.', 'Ví dụ: Trong phép tính 12 ÷ 3 = 4, số 12 là số bị chia.']
+            ],
+            [
+                ['Định nghĩa: Số chia là số mà số bị chia được chia thành.', 'Ví dụ: Trong phép tính 12 ÷ 3 = 4, số 3 là số chia.']
+            ],
+            [
+                ['Định nghĩa: Thương là kết quả của phép chia.', 'Ví dụ: Trong phép tính 12 ÷ 3 = 4, số 4 là thương.']
+            ],
+            [
+                ['Giải thích: 15 chia thành 3 phần bằng nhau.', 'Cách tính: 15 chia cho 3 = 5', 'Số bị chia: 15', 'Số chia: 3', 'Thương: 5'],
+                ['Giải thích: 20 chia thành 4 phần bằng nhau.', 'Cách tính: 20 chia cho 4 = 5', 'Số bị chia: 20', 'Số chia: 4', 'Thương: 5']
+            ],
+            [
+                ['24 ÷ 6 = ?', '18 ÷ 3 = ?', '30 ÷ 5 = ?'],
+                ['28 ÷ 7 = 4', '32 ÷ 8 = 4'],
+                ['16 ÷ 4 = ?', '27 ÷ 9 = ?', '36 ÷ 6 = ?']
+            ],
+            [
+                ['Sử dụng bảng cửu chương: Học sinh nên học thuộc bảng cửu chương để dễ dàng thực hiện các phép chia.',
+                    'Sử dụng đồ chơi và hình ảnh: Sử dụng các đồ chơi như que tính, hình vẽ để minh họa các phép chia.',
+                    'Luyện tập thường xuyên: Thực hành các bài tập phép chia hàng ngày để ghi nhớ tốt hơn.'
+                ]
+            ],
+            [
+                [
+
+                ]
+            ],
+
+        ],
+
+        srcpic: [
+            '/pics/chia.jpg',
+            '/pics/chia2.jpg',
+            '/pics/chia3.jpg',
+            '/pics/chia4.jpg',
+            '/pics/chia5.png',
+            '/pics/chia6.png',
+            '/pics/chia7.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
@@ -1966,68 +2072,8 @@ const dataLiThuyetlop2_10 = [
             '/pics/blooket3.webp',
             '/pics/blooket4.webp',
             '/pics/blooket5.webp',
-        ],
-        pathname: '/toan2/clip10',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
-    }
-]
-const dataLiThuyetlop2_11 = [
-    {
-        title: '9. Ngày - giờ, giờ - phút',
-        subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
-        ],
-        noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
-        ],
-
-        subNoidung: [
-            [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
-        ],
-
-        srcpic: [
-            '/pics/ngaygiophut1.jpg',
-            '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
-
-            '/pics/blocket.jpg'
-        ],
-        blooket: [
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-        ],
-        blooketPics: [
-            '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip11',
@@ -2036,55 +2082,35 @@ const dataLiThuyetlop2_11 = [
 ]
 const dataLiThuyetlop2_12 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: '12. Bảng nhân, chia 5 và 2',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
+            '1. Bảng nhân 2',
+            '2. Bảng chia 2',
+            '3. Bảng nhân 5',
+            '4. Bảng chia 5',
             '5. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            [], [], [], [], []
         ],
 
         subNoidung: [
-            [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+            [], [], [], [], []
         ],
 
         srcpic: [
-            '/pics/ngaygiophut1.jpg',
-            '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
-
+            '/pics/bangnhan2.jpg',
+            '/pics/bangchia2.jpg',
+            '/pics/bangnhan5.jpg',
+            '/pics/bangchia5.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f5e186420cd892ef523c',
+            'https://dashboard.blooket.com/set/6677f69286420cd892ef5243',
+            'https://dashboard.blooket.com/set/6677f63086420cd892ef523f',
+            'https://dashboard.blooket.com/set/6677f8ef86a83baf46ed62b6',
+            'https://dashboard.blooket.com/set/6677f69286420cd892ef5243',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
@@ -2099,55 +2125,35 @@ const dataLiThuyetlop2_12 = [
 ]
 const dataLiThuyetlop2_13 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: '13. Khối trụ, khối cầu',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Khối Trụ',
+            '2. Khối Cầu',
+            '3. Ví dụ Cụ Thể và Minh Họa',
+            '4. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            [''], [''], [''], [''], []
         ],
 
         subNoidung: [
-            [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+            [['Định nghĩa: Khối trụ là một hình khối có hai đáy là hai hình tròn bằng nhau và song song, các mặt bên của khối trụ là một mặt cong bao quanh hai đáy.']],
+            [['Định nghĩa: Khối cầu là một hình khối có tất cả các điểm trên bề mặt cách đều một điểm gọi là tâm cầu.']],
+            [['Khối Trụ:', 'Đồ vật: Một lon sữa, một cái trống.', 'Khối Cầu:', 'Đồ vật: Một quả bóng đá, quả cầu thủy tinh.']], [[]]
         ],
 
         srcpic: [
-            '/pics/ngaygiophut1.jpg',
-            '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
-
+            '/pics/khoitru.png',
+            '/pics/khoicau.jpg',
+            '/pics/khoitrukhoicau.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/discover?n=Innor',
+            'https://dashboard.blooket.com/discover?n=Innor',
+            'https://dashboard.blooket.com/discover?n=Innor',
+            'https://dashboard.blooket.com/discover?n=Innor',
+            'https://dashboard.blooket.com/discover?n=Innor',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
@@ -2162,35 +2168,27 @@ const dataLiThuyetlop2_13 = [
 ]
 const dataLiThuyetlop2_14 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: '14. Đơn vị, chục, trăm, nghìn, Các số tròn trăm, tròn chục',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Các đơn vị đo lường trong hệ số học',
+            '2. Các số tròn chục',
+            '3. Các số tròn trăm',
+            '4. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
+            [''], [''], [''], []
 
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
+                ['Đơn vị: Số nhỏ nhất, nằm ở hàng đơn vị.', 'Chục: Tương đương với 10 đơn vị.', 'Trăm: Tương đương với 100 đơn vị.', 'Nghìn: Tương đương với 1,000 đơn vị.']
             ]
             , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
+                ['Các số tròn chục là các số có chữ số cuối cùng là 0 và chia hết cho 10. Ví dụ: 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, ...'],
             ]
             , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
+                ['Các số tròn trăm là các số có hai chữ số cuối cùng là 0 và chia hết cho 100. Ví dụ: 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, ...']
             ]
             , [
 
@@ -2198,24 +2196,20 @@ const dataLiThuyetlop2_14 = [
         ],
 
         srcpic: [
-            '/pics/ngaygiophut1.jpg',
-            '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
-
+            '/pics/2141.jpg',
+            '/pics/2142.png',
+            '/pics/2143.webp',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677fb6b86420cd892ef5265',
+            'hhttps://dashboard.blooket.com/set/6677fa3e86a83baf46ed62c1',
+            'https://dashboard.blooket.com/set/6677fb6b86420cd892ef5265',
+            'https://dashboard.blooket.com/set/6677fa3e86a83baf46ed62c1',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
             '/pics/blooket4.webp',
             '/pics/blooket5.webp',
         ],
@@ -2225,61 +2219,63 @@ const dataLiThuyetlop2_14 = [
 ]
 const dataLiThuyetlop2_15 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: '15. So sánh các số, tròn trăm, tròn chục',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. So sánh các số',
+            '2. So sánh các số tròn chục',
+            '3. So sánh các số tròn trăm',
+            '4. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
+            ['1. So sánh các số dựa trên các hàng giá trị của chúng, từ trái sang phải (từ hàng lớn nhất đến hàng nhỏ nhất):', 'Ví dụ: So sánh 482 và 479:'], ['Các số tròn chục là các số chia hết cho 10 và có chữ số cuối cùng là 0. Khi so sánh các số tròn chục, ta chỉ cần so sánh chữ số ở hàng chục và các hàng lớn hơn.', '2. Ví dụ: So sánh 70 và 80:'], ['1. Các số tròn trăm là các số chia hết cho 100 và có hai chữ số cuối cùng là 00. Khi so sánh các số tròn trăm, ta chỉ cần so sánh chữ số ở hàng trăm và các hàng lớn hơn.', '2. Ví dụ: So sánh 300 và 500:'], []
 
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
+                ['So sánh hàng nghìn: Số nào có chữ số ở hàng nghìn lớn hơn sẽ lớn hơn.',
+                    'So sánh hàng trăm: Nếu hai số có cùng chữ số ở hàng nghìn, so sánh tiếp hàng trăm.',
+                    'So sánh hàng chục: Nếu hai số có cùng chữ số ở hàng trăm, so sánh tiếp hàng chục.',
+                    'So sánh hàng đơn vị: Nếu hai số có cùng chữ số ở hàng chục, so sánh cuối cùng ở hàng đơn vị.'
+                ],
+                [
+                    'Hàng trăm: 4 = 4',
+                    'Hàng chục: 8 > 7 (nên 482 > 479)'
+                ]
             ]
             , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
+                [''],
+                ['Hàng chục: 7 < 8 (nên 70 < 80)']
             ]
             , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
+                [''],
+                ['Hàng trăm: 3 < 5 (nên 300 < 500)']
             ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
+            ,
             , [
 
             ]
         ],
 
         srcpic: [
-            '/pics/ngaygiophut1.jpg',
-            '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
+            '/pics/2151.jpg',
+            '/pics/2153.png',
+            '/pics/2152.jpg',
 
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
-            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677fbf69d592941df53de7e',
+            'https://dashboard.blooket.com/set/6677fbf69d592941df53de7e',
+            'https://dashboard.blooket.com/set/6677fbf69d592941df53de7e',
+            'https://dashboard.blooket.com/set/6677fbf69d592941df53de7e',
+
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
+
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip15',
@@ -2288,39 +2284,50 @@ const dataLiThuyetlop2_15 = [
 ]
 const dataLiThuyetlop2_16 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 16 - Số có ba chữ số, So sánh các số có ba chữ số',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Số có 3 chữ số',
+            '2. Đọc và viết số có ba chữ số',
+            '3. So sánh các số có ba chữ số',
+            '4. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            ['Khái niệm: Số có ba chữ số là các số nằm trong khoảng từ 100 đến 999.', 'Cấu trúc: Một số có ba chữ số gồm ba thành phần:'], ['Đọc số: Khi đọc số có ba chữ số, chúng ta đọc từ hàng trăm, hàng chục, rồi đến hàng đơn vị. Ví dụ:', 'Viết số: Khi viết số có ba chữ số, cần xác định đúng vị trí của hàng trăm, hàng chục và hàng đơn vị. Ví dụ:'], ['So sánh hàng trăm: Số nào có hàng trăm lớn hơn thì số đó lớn hơn.', 'So sánh hàng trăm: Số nào có hàng trăm lớn hơn thì số đó lớn hơn.', 'So sánh hàng đơn vị: Nếu hàng trăm và hàng chục đều bằng nhau, ta so sánh hàng đơn vị. Số nào có hàng đơn vị lớn hơn thì số đó lớn hơn.'], []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+                [
+                    ''
+                ],
+                [
+                    'Hàng trăm: Chữ số đứng ở vị trí thứ ba tính từ phải sang trái.',
+                    'Hàng chục: Chữ số đứng ở vị trí thứ hai tính từ phải sang trái.',
+                    'Hàng đơn vị: Chữ số đứng ở vị trí đầu tiên tính từ phải sang trái.'
+                ]
+            ],
+            [
+                [
+                    'Số 256 đọc là "hai trăm năm mươi sáu".',
+                    'Số 703 đọc là "bảy trăm lẻ ba".'
+                ],
+                [
+                    'Số hai trăm mười bảy viết là 217.',
+                    'Số bốn trăm năm mươi tám viết là 458.'
+                ]
+            ],
+            [
+                [
+                    'Ví dụ: 456 lớn hơn 389 vì 4 lớn hơn 3.'
+                ],
+                [
+                    'Ví dụ: 452 lớn hơn 431 vì hàng trăm đều là 4, nhưng 5 lớn hơn 3.'
+                ],
+                [
+                    'Ví dụ: 456 lớn hơn 452 vì hàng trăm và hàng chục đều bằng nhau, nhưng 6 lớn hơn 2.'
+                ]
+            ],
+            []
         ],
 
         srcpic: [
@@ -2342,7 +2349,6 @@ const dataLiThuyetlop2_16 = [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip16',
@@ -2351,39 +2357,36 @@ const dataLiThuyetlop2_16 = [
 ]
 const dataLiThuyetlop2_17 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 16 - Số có ba chữ số, So sánh các số có ba chữ số',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Khái niệm',
+            '2. Ví dụ minh họa',
+            '3. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            ['Một số ba chữ số có thể được biểu diễn dưới dạng tổng của các giá trị hàng trăm, hàng chục và hàng đơn vị. Mỗi chữ số trong số đó đại diện cho một phần của tổng này dựa trên vị trí của nó trong số.Cụ thể:'],
+            ['Giả sử chúng ta có số 472.', 'Như vậy, số 472 có thể được viết thành tổng của các thành phần như sau:'],
+            []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+                ['Hàng trăm là chữ số đầu tiên từ trái sang phải, và giá trị của nó là chữ số đó nhân với 100.',
+                    'Hàng chục là chữ số thứ hai từ trái sang phải, và giá trị của nó là chữ số đó nhân với 10.',
+                    'Hàng đơn vị là chữ số cuối cùng từ trái sang phải, và giá trị của nó là chữ số đó nhân với 1 (hoặc chính là chữ số đó).',
+                ]
+            ],
+            [
+                [
+                    'Hàng trăm: Chữ số 4 nằm ở vị trí hàng trăm, do đó giá trị của nó là 4 x 100 = 400',
+                    'Hàng chục: Chữ số 7 nằm ở vị trí hàng chục, do đó giá trị của nó là 7 x 10 = 70',
+                    'Hàng đơn vị: Chữ số 2 nằm ở vị trí hàng đơn vị, do đó giá trị của nó là 2 x 1 = 2'
+                ],
+                [
+                    '472=400+70+2'
+                ]
+            ],
+            []
         ],
 
         srcpic: [
@@ -2404,8 +2407,6 @@ const dataLiThuyetlop2_17 = [
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip17',
@@ -2414,39 +2415,54 @@ const dataLiThuyetlop2_17 = [
 ]
 const dataLiThuyetlop2_18 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 18 - Đề-xi-mét, mét, ki-lô-mét, Giới thiệu tiền Việt Nam',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Đề-xi-mét, Mét, Ki-lô-mét',
+            '2. Giới thiệu tiền Việt Nam',
+            '3. Lịch sử và Thiết kế',
+            '4. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            ['Trong hệ thống đơn vị đo lường quốc tế (SI), các đơn vị đo chiều dài bao gồm đề-xi-mét (dm), mét (m), và ki-lô-mét (km). Dưới đây là khái niệm và cách chuyển đổi giữa các đơn vị này:'],
+            ['Tiền Việt Nam được gọi là đồng (VND), và nó là đơn vị tiền tệ chính thức của Việt Nam. Dưới đây là các mệnh giá và một số thông tin cơ bản về tiền Việt Nam:', 'Tiền giấy', 'Tiền xu'],
+            ['Lịch sử: Tiền đồng Việt Nam đã trải qua nhiều giai đoạn thay đổi về thiết kế và chất liệu. Ban đầu, tiền được làm từ chất liệu kim loại, sau đó chuyển sang tiền giấy để thuận tiện hơn trong lưu thông.', 'Thiết kế: Các tờ tiền giấy Việt Nam thường có hình ảnh các nhân vật lịch sử quan trọng, cảnh quan nổi tiếng của đất nước, hoặc các biểu tượng văn hóa. Ví dụ, tờ 500.000 đồng có hình ảnh Chủ tịch Hồ Chí Minh, và tờ 100.000 đồng có hình ảnh Chùa Một Cột - một biểu tượng của Hà Nội.'],
+            []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
+                [
+                    'Mét (m): Đây là đơn vị cơ bản trong hệ đo lường SI để đo chiều dài. 1 mét bằng 100 cm.',
+                    'Đề-xi-mét (dm): 1 đề-xi-mét bằng 1/10 mét, hay 10 cm.',
+                    'Chuyển đổi: 1 mét = 10 đề-xi-mét.',
 
-            ]
+                    'Ki-lô-mét (km): 1 ki-lô-mét bằng 1.000 mét.',
+                    'Chuyển đổi: 1 ki-lô-mét = 1.000 mét.'
+                ],
+            ],
+            [
+                [''],
+                [
+                    'Mệnh giá nhỏ (các mệnh giá có xu hướng ít được sử dụng hơn do giá trị nhỏ):',
+                    '1.000 đồng',
+                    '2.000 đồng',
+                    '5.000 đồng',
+                    'Mệnh giá trung bình:',
+                    '10.000 đồng',
+                    '20.000 đồng',
+                    '50.000 đồng',
+                    'Mệnh giá lớn:',
+                    '100.000 đồng',
+                    '200.000 đồng',
+                    '500.000 đồng'
+                ],
+                [
+                    'Tiền xu Việt Nam hiện nay ít được sử dụng trong giao dịch hàng ngày và thường chỉ được phát hành dưới dạng mệnh giá thấp như 200 đồng, 500 đồng, 1.000 đồng, 2.000 đồng và 5.000 đồng.'
+                ]
+
+            ],
+            [[''], ['']],
+            [],
         ],
 
         srcpic: [
@@ -2467,8 +2483,7 @@ const dataLiThuyetlop2_18 = [
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
+            '/pics/blooket1.webp',
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip18',
@@ -2477,46 +2492,45 @@ const dataLiThuyetlop2_18 = [
 ]
 const dataLiThuyetlop2_19 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 19: Phép Cộng, Trừ Trong Phạm Vi 1000',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Phép Cộng Trong Phạm Vi 1000',
+            '2. Phép Trừ Trong Phạm Vi 1000',
+            '3. luyện tập'
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            ['Phép cộng là việc thêm một số vào một số khác để tạo ra một tổng. Khi cộng các số trong phạm vi 1000, chúng ta cần chú ý đến hàng đơn vị, hàng chục và hàng trăm. Dưới đây là một số bước cơ bản:', 'Ví dụ: 345 + 287'],
+            ['Phép trừ là việc lấy một số trừ đi một số khác để tìm ra phần chênh lệch. Khi trừ các số trong phạm vi 1000, chúng ta cũng cần chú ý đến hàng đơn vị, hàng chục và hàng trăm.', 'Phép trừ là việc lấy một số trừ đi một số khác để tìm ra phần chênh lệch. Khi trừ các số trong phạm vi 1000, chúng ta cũng cần chú ý đến hàng đơn vị, hàng chục và hàng trăm.', 'Ví dụ: 753 - 286'],
+            []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+                [''],
+                [
+                    'Bước 1: Cộng hàng đơn vị: 5 + 7 = 12 (viết 2, nhớ 1)',
+                    'Bước 2: Cộng hàng chục (cộng thêm số nhớ): 4 + 8 = 12 + 1 = 13 (viết 3, nhớ 1)',
+                    'Bước 3: Cộng hàng trăm (cộng thêm số nhớ): 3 + 2 = 5 + 1 = 6',
+                    'Kết quả: 345 + 287 = 632'
+                ]
+            ],
+            [
+                [''],
+                [
+                    'Bước 1: Trừ hàng đơn vị: 3 - 6 (không trừ được, mượn 1 từ hàng chục, 3 thành 13): 13 - 6 = 7',
+                    'Bước 2: Trừ hàng chục (sau khi mượn 1, hàng chục trở thành 4): 4 - 8 (không trừ được, mượn 1 từ hàng trăm, 4 thành 14): 14 - 8 = 6',
+                    'Bước 3: Trừ hàng trăm (sau khi mượn 1, hàng trăm trở thành 6): 6 - 2 = 4'
+                ]
+                ,
+                ['']
+            ],
+            []
         ],
 
         srcpic: [
             '/pics/ngaygiophut1.jpg',
             '/pics/ngaygiophut2.png',
-            '/pics/ngaygiophut1.5.jpg',
-            '/pics/ngaygiophut3.jpg',
+
 
             '/pics/blocket.jpg'
         ],
@@ -2531,8 +2545,7 @@ const dataLiThuyetlop2_19 = [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+
         ],
         pathname: '/toan2/clip19',
         srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
@@ -2540,39 +2553,39 @@ const dataLiThuyetlop2_19 = [
 ]
 const dataLiThuyetlop2_20 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 20: Viết Số Thành Tổng Các Trăm, Chục, Đơn Vị',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Khái Niệm',
+            '2. Ví Dụ Minh Họa',
+            '3. luyện tập'
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            ['Một số ba chữ số có thể được biểu diễn dưới dạng tổng của các giá trị hàng trăm, hàng chục và hàng đơn vị. Mỗi chữ số trong số đó đại diện cho một phần của tổng này dựa trên vị trí của nó trong số.', 'Cụ thể:'],
+            ['Ví dụ 1: Số 472', 'Như vậy, số 472 có thể được viết thành tổng của các thành phần như sau:'],
+            []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+                [''],
+                [
+                    'Hàng trăm là chữ số đầu tiên từ trái sang phải, và giá trị của nó là chữ số đó nhân với 100.',
+                    'Hàng chục là chữ số thứ hai từ trái sang phải, và giá trị của nó là chữ số đó nhân với 10.',
+                    'Bước 3: Cộng hàng trăm (cộng thêm số nhớ): 3 + 2 = 5 + 1 = 6',
+                    'Hàng đơn vị là chữ số cuối cùng từ trái sang phải, và giá trị của nó là chữ số đó nhân với 1 (hoặc chính là chữ số đó).'
+                ]
+            ],
+            [
+                [
+                    'Hàng trăm: Chữ số 4 nằm ở vị trí hàng trăm, do đó giá trị của nó là 4 x 100 = 400',
+                    'Hàng chục: Chữ số 7 nằm ở vị trí hàng chục, do đó giá trị của nó là 7 x 10 = 70',
+                    'Hàng đơn vị: Chữ số 2 nằm ở vị trí hàng đơn vị, do đó giá trị của nó là 2 x 1 = 2'
+                ],
+                [
+                    '472 = 400 + 70 + 2'
+                ]
+            ],
+            []
         ],
 
         srcpic: [
@@ -2594,8 +2607,7 @@ const dataLiThuyetlop2_20 = [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+
         ],
         pathname: '/toan2/clip20',
         srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
@@ -2666,39 +2678,36 @@ const dataLiThuyetlop2_21 = [
 ]
 const dataLiThuyetlop2_22 = [
     {
-        title: '9. Ngày - giờ, giờ - phút',
+        title: 'Bài 22 - Số có ba chữ số, So sánh các số có ba chữ số',
         subtitle: [
-            '1. Ngày - Giờ',
-            '2. Giờ - Phút',
-            '3. Cách Đọc Giờ',
-            '4. Bài tập thực hành',
-            '5. Luyện tập',
+            '1. Khái niệm',
+            '2. Ví dụ minh họa',
+            '3. Luyện tập',
         ],
         noidung: [
-            ['1. Định nghĩa:', '2. Ví dụ:'], ['1. Định nghĩa:', '2. Ví dụ:'], [''], ['1. Xác định giờ và phút:', '2. Cộng, trừ giờ và phút:', '3. Xác định thời gian từ hoạt động hàng ngày:'], []
-
+            ['1.Chắc chắn', '2.Có thể', '3.Không thể'],
+            ['Ví dụ:'],
+            []
         ],
 
         subNoidung: [
             [
-                ['Ngày: Là đơn vị thời gian tương đương với 24 giờ.', 'Giờ: Là đơn vị thời gian nhỏ hơn ngày, một ngày có 24 giờ.'],
-                ['Một ngày bắt đầu từ 12:00 đêm (nửa đêm) và kết thúc vào 12:00 đêm hôm sau.', 'Buổi sáng kéo dài từ 12:00 đêm đến 12:00 trưa, buổi chiều kéo dài từ 12:00 trưa đến 12:00 đêm.']
-            ]
-            , [
-                ['Giờ: Là đơn vị thời gian, một ngày có 24 giờ.', 'Phút: Là đơn vị thời gian nhỏ hơn giờ, một giờ có 60 phút.'],
-                ['Một giờ có 60 phút, ví dụ từ 1:00 đến 2:00 là một giờ.', 'Một nửa giờ là 30 phút, ví dụ từ 1:00 đến 1:30 là 30 phút.']
-            ]
-            , [
-                ['Giờ đúng: Khi kim phút chỉ vào số 12.', 'Ví dụ: 3:00, 7:00', 'Giờ lẻ: Khi kim phút chỉ vào các số khác số 12.', 'Ví dụ: 3:15 (ba giờ mười lăm phút), 7:45 (bảy giờ bốn mươi lăm phút)']
-            ]
-            , [
-                ["Nếu bây giờ là 3:15, thì 15 phút sau sẽ là mấy giờ?", 'Đáp án: 3:30'],
-                ['"Nếu bây giờ là 4:45, thì 30 phút sau sẽ là mấy giờ?"', 'Đáp án: 5:15', '"Nếu bây giờ là 5:30, thì 20 phút trước đó là mấy giờ?"', 'Đáp án: 5:10'],
-                ['"Nếu giờ ăn trưa là 12:00 và giờ học buổi chiều bắt đầu lúc 1:30, thì thời gian nghỉ trưa là bao lâu?"', 'Đáp án: 1 giờ 30 phút']
-            ]
-            , [
-
-            ]
+                [
+                    ' "Chắc chắn" đề cập đến một sự việc hoặc sự kiện mà khả năng xảy ra của nó là 100%, không có bất kỳ sự nghi ngờ nào. Ví dụ, việc mặt trời mọc vào ngày mai là điều chắc chắn.'
+                ],
+                [
+                    '"Có thể" mô tả một sự kiện hoặc hành động có khả năng xảy ra, nhưng không phải là chắc chắn. Khả năng xảy ra có thể dao động từ rất thấp đến rất cao, nhưng không đạt mức tuyệt đối. Ví dụ, trời có thể mưa vào buổi chiều, nhưng cũng có thể không.'
+                ],
+                [
+                    '"Không thể" biểu thị một sự việc hoàn toàn không có khả năng xảy ra. Khả năng xảy ra của sự kiện này là 0%. Ví dụ, việc một con cá có thể bay lên trời như chim là điều không thể.'
+                ]
+            ],
+            [
+                ['Chắc chắn: Mặt trời sẽ mọc vào ngày mai.',
+                    'Có thể: Trời có thể mưa vào buổi chiều nay.',
+                    'Không thể: Con cá không thể bay lên trời như chim.']
+            ],
+            []
         ],
 
         srcpic: [
@@ -2719,15 +2728,13 @@ const dataLiThuyetlop2_22 = [
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip22',
         srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
     }
 ]
-
+////// LOP 4
 const dataLiThuyetlop4_1 = [
     {
         title: '1. Làm quen với một số hình',
@@ -3140,184 +3147,249 @@ const dataLiThuyetlop4_9 = [
 ]
 const dataLiThuyetlop5_1 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Bài 1: Ôn tập',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái Niệm Về Số Tự Nhiên',
+            '2. Ví Dụ Bài Tập',
+            '3. luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Số tự nhiên là các số dùng để đếm và thứ tự, bao gồm các số từ 0, 1, 2, 3,... trở đi.', 'Dãy số tự nhiên: Số tự nhiên không có số lớn nhất vì luôn có thể thêm 1 vào bất kỳ số tự nhiên nào để có số tự nhiên lớn hơn. Ngược lại, số nhỏ nhất là số 0.'],
+            [''],
+            []
         ],
 
-        noidungsub: [['troll1', 'troll2'], [], []],
+        subNoidung: [
+            [
+                [
+                    ''
+                ],
+                [
+                    'Phép cộng: Kết quả của phép cộng hai số tự nhiên cũng là một số tự nhiên. Ví dụ: 5 + 3 = 8.',
+                    'Phép trừ: Kết quả của phép trừ hai số tự nhiên có thể không phải là số tự nhiên nếu số trừ lớn hơn số bị trừ. Ví dụ: 7 - 2 = 5 nhưng 2 - 7 không phải là số tự nhiên.',
+                    'Phép nhân: Kết quả của phép nhân hai số tự nhiên là một số tự nhiên. Ví dụ: 4 x 3 = 12.',
+                    'Phép chia: Kết quả của phép chia hai số tự nhiên có thể không phải là số tự nhiên nếu không chia hết. Ví dụ: 10 chia cho 2 = 5, nhưng 10 chia cho 3 không phải là số tự nhiên.'
+                ]
+            ],
+            [
+                [
+                    'Tính ƯCLN và BCNN của 18 và 24.',
+                    'Viết các số 48, 120, 75 dưới dạng tích của các thừa số nguyên tố.',
+                    'So sánh các số: 543 và 456.',
+                    'Viết dãy số tăng đều với công sai là 3, bắt đầu từ số 5.'
+                ]
+            ],
+            []
+        ],
 
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/511.jpg',
+            '/pics/512.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',],
-        pathname: '/toan5/clip1',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
 
+        ],
+        pathname: '/toan5/clip1',
+        srcvideo: "https://www.youtube.com/embed/HGYqkmFCqSk?si=xyGWZD1ETVUMnJtC", topath: '/toan5'
     }
 ]
 const dataLiThuyetlop5_2 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Bài 2: Phép Cộng, Trừ Trong Phạm Vi 1000',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái Niệm Về Số Tự Nhiên',
+            '2. Ví Dụ Bài Tập',
+            '3. luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Số tự nhiên là các số dùng để đếm và thứ tự, bao gồm các số từ 0, 1, 2, 3,... trở đi.', 'Dãy số tự nhiên: Số tự nhiên không có số lớn nhất vì luôn có thể thêm 1 vào bất kỳ số tự nhiên nào để có số tự nhiên lớn hơn. Ngược lại, số nhỏ nhất là số 0.'],
+            [''],
+            []
         ],
 
-        noidungsub: [['troll1', 'troll2'], [], []],
+        subNoidung: [
+            [
+                [
+                    ''
+                ],
+                [
+                    'Phép cộng: Kết quả của phép cộng hai số tự nhiên cũng là một số tự nhiên. Ví dụ: 5 + 3 = 8.',
+                    'Phép trừ: Kết quả của phép trừ hai số tự nhiên có thể không phải là số tự nhiên nếu số trừ lớn hơn số bị trừ. Ví dụ: 7 - 2 = 5 nhưng 2 - 7 không phải là số tự nhiên.',
+                    'Phép nhân: Kết quả của phép nhân hai số tự nhiên là một số tự nhiên. Ví dụ: 4 x 3 = 12.',
+                    'Phép chia: Kết quả của phép chia hai số tự nhiên có thể không phải là số tự nhiên nếu không chia hết. Ví dụ: 10 chia cho 2 = 5, nhưng 10 chia cho 3 không phải là số tự nhiên.'
+                ]
+            ],
+            [
+                [
+                    'Tính ƯCLN và BCNN của 18 và 24.',
+                    'Viết các số 48, 120, 75 dưới dạng tích của các thừa số nguyên tố.',
+                    'So sánh các số: 543 và 456.',
+                    'Viết dãy số tăng đều với công sai là 3, bắt đầu từ số 5.'
+                ]
+            ],
+            []
+        ],
 
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/ngaygiophut1.jpg',
+            '/pics/ngaygiophut2.png',
+            '/pics/ngaygiophut1.5.jpg',
+            '/pics/ngaygiophut3.jpg',
+
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
-        ],
-        pathname:
-            '/toan5/clip2',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
 
-    },
+        ],
+        pathname: '/toan5/clip2',
+        srcvideo: "https://www.youtube.com/embed/SjhGoFNsCoU?si=TiwDMoS7QyMCBtij", topath: '/toan5'
+    }
 ]
 
 
 const dataLiThuyetlop5_3 = [
     {
-        title: '1. Làm quen với một số hình 2',
+        title: '3. Ôn Tập Về Giải Toán',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái Niệm Bài Toán Về Số Học',
+            '2. Ví Dụ Bài Tập',
+            '3. luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán số học thường yêu cầu học sinh thực hiện các phép toán cơ bản như cộng, trừ, nhân, chia.', 'Phép cộng và trừ số lớn: Yêu cầu học sinh tính toán với các số có nhiều chữ số.', 'Phép nhân và chia với số có hai chữ số: Yêu cầu học sinh nhân hoặc chia các số lớn.'],
+            ['Ví Dụ:'],
+            []
         ],
 
-        noidungsub: [['troll1', 'troll2'], [], []],
+        subNoidung: [
+            [
+                [
+                    ''
+                ],
+                [
+                    ''
+                ],
+                [
+                    ''
+                ]
+            ],
+            [
+                [
+                    'Phép cộng: 12345 + 6789 = ?',
+                    'Phép trừ: 23456 - 1234 = ?',
+                    'Phép nhân: 345 x 23 = ?',
+                    'Phép chia: 4567 : 19 = ?'
+                ]
+            ],
+            []
+        ],
 
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/ngaygiophut1.jpg',
+            '/pics/ngaygiophut2.png',
+            '/pics/ngaygiophut1.5.jpg',
+            '/pics/ngaygiophut3.jpg',
+
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
-        ],
-        pathname:
-            '/toan5/clip3',
-        srcvideo:
-            "https://www.youtube.com/embed/Cnb32kAqV0A?si=tyZnJ1IsCdppn9sf", topath: '/toan5'
 
+        ],
+        pathname: '/toan5/clip3',
+        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
     }
 ]
 
 
 const dataLiThuyetlop5_4 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Ôn Tập Về Phân Số',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm cơ bản:',
+            '2. Ví dụ về phân số:',
+            '3. luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Phân số là gì?', 'Các thành phần của phân số:'],
+            ['Ví dụ cơ bản:'],
+            []
         ],
 
-        noidungsub: [['troll1', 'troll2'], [], []],
+        subNoidung: [
+            [
+                [
+                    'Phân số là một phép toán trong đó chia một đại lượng thành các phần bằng nhau. Nó được biểu diễn dưới dạng a/b, trong đó a là tử số và b là mẫu số. b khác 0 vì không thể chia cho 0.'
+                ],
+                [
+                    'Tử số (a): Phần chia của phân số.',
+                    'Mẫu số (b): Phần được chia của phân số, phải khác 0.'
+                ]
+            ],
+            [
+                [
+                    'Cộng phân số: 1/2 + 1/3',
+                    'Để cộng hai phân số, chúng ta cần có cùng mẫu số. Ta có thể làm như sau:',
+                    '1/2 + 1/3 = 3/6 + 2/6 = 5/6',
+                    'Kết quả là: 5/6 với tử là 5 và mẫu là 6.'
+                ]
+            ],
+            []
+        ],
 
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/ngaygiophut1.jpg',
+            '/pics/ngaygiophut2.png',
+            '/pics/ngaygiophut1.5.jpg',
+            '/pics/ngaygiophut3.jpg',
+
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
-        ],
-        pathname:
-            '/toan5/clip4',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
 
+        ],
+        pathname: '/toan5/clip4',
+        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
     }
 ]
 
@@ -3362,7 +3434,7 @@ const dataLiThuyetlop5_5 = [
         pathname:
             '/toan5/clip5',
         srcvideo:
-            "https://www.youtube.com/embed/Dnj5FglKgKk?si=cKiVd14_e_vgxLnl", topath: '/toan5'
+            "https://www.youtube.com/embed/ecl3pbyvoRw?si=OEYBVxqofE_nvDdn", topath: '/toan5'
 
     }
 ]
@@ -3409,7 +3481,7 @@ const dataLiThuyetlop5_6 = [
         pathname:
             '/toan5/clip6',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
+            "https://www.youtube.com/embed/jTNEk5I6Smw?si=NaL8IutrE6ghDRJk", topath: '/toan5'
 
     }
 ]
@@ -3455,7 +3527,7 @@ const dataLiThuyetlop5_7 = [
         ],
         pathname:
             '/toan5/clip7',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
+        srcvideo: "https://www.youtube.com/embed/NoNYzAimyXk?si=_SNo4TdZVQgZqQ1S", topath: '/toan5'
 
 
     }
@@ -3501,7 +3573,7 @@ const dataLiThuyetlop5_8 = [
         pathname:
             '/toan5/clip8',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
+            "https://www.youtube.com/embed/8YTMk6t5E_A?si=wIJ4GfvX0cv_PC5O", topath: '/toan5'
 
     }
 ]
@@ -3544,7 +3616,301 @@ const dataLiThuyetlop5_9 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan5/clip9',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
+        srcvideo: "https://www.youtube.com/embed/1mT54mXUbY8?si=-MlIKyclZznTK4l8", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_10 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip10',
+        srcvideo: "https://www.youtube.com/embed/pyc7kwABw90?si=xAY_QmeuSWcRbZEb", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_11 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip11',
+        srcvideo: "https://www.youtube.com/embed/_lgWjb-G-6A?si=UHIEqk_flwPO7EoR", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_12 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip12',
+        srcvideo: "https://www.youtube.com/embed/NT1k4jLtqwQ?si=Fr22RmSdTNQxiX83", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_13 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip13',
+        srcvideo: "https://www.youtube.com/embed/y80najk4xQg?si=wZbUnEC_zTbfwTxB", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_14 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip14',
+        srcvideo: "https://www.youtube.com/embed/cpzGSbEwqBE?si=fNHfnGm9CYCB0q6D", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_15 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip15',
+        srcvideo: "https://www.youtube.com/embed/I1XwWuYdhh8?si=xvnY0e2UmcfsDq3Y", topath: '/toan5'
+    }
+]
+const dataLiThuyetlop5_16 = [
+    {
+        title: '1. Làm quen với một số hình',
+        subtitle: [
+            '1. Vị trí',
+            '2. Khối hộp chữ nhật - Khối lập phương',
+            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
+            '4. Xếp hình',
+            '5. Luyện tập',
+        ],
+        noidung: [
+            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
+
+        ],
+
+        noidungsub: [['troll1', 'troll2'], [], []],
+
+        srcpic: [
+            '/pics/1.jpg',
+            '/pics/2.jpg',
+            '/pics/3.jpg',
+            '/pics/4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket4.webp',
+            '/pics/blooket5.webp',
+        ],
+        pathname: '/toan5/clip16',
+        srcvideo: "https://www.youtube.com/embed/uWr7OIFwDuQ?si=aaudwi1wRTQ8ixe3", topath: '/toan5'
     }
 ]
 const dataLiThuyetlop1 = [
@@ -3627,10 +3993,13 @@ const dataLiThuyetlop5 = [
     dataLiThuyetlop5_7,
     dataLiThuyetlop5_8,
     dataLiThuyetlop5_9,
-
-
-
-
+    dataLiThuyetlop5_10,
+    dataLiThuyetlop5_11,
+    dataLiThuyetlop5_12,
+    dataLiThuyetlop5_13,
+    dataLiThuyetlop5_14,
+    dataLiThuyetlop5_15,
+    dataLiThuyetlop5_16,
 ]
 // export const dataLiThuyetdethi = [
 //     dataLiThuyetlopdethi_1,
