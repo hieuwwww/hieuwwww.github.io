@@ -37,11 +37,11 @@ const AppRouter = () => {
             />
           ))}
 
-          {lithuyet_container.map((e, index) =>
-            e.map((ee, index) =>
-              ee.map((eee, indexx) => (
+          {lithuyet_container.map((e, outerIndex) =>
+            e.map((ee, middleIndex) =>
+              ee.map((eee, innerIndex) => (
                 <Route
-                  key={indexx}
+                  key={`${outerIndex}-${middleIndex}-${innerIndex}`}
                   path={eee.pathname}
                   element={
                     <LiThuyetContainer
