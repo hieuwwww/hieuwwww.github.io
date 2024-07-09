@@ -9,12 +9,18 @@ export default function MathClass({ title, background_image, data }) {
       <h2
         style={{
           backgroundImage: `url("${background_image}")`,
-          height: "300px",
+          minHeight: "300px",
           width: "86%",
-          backgroundSize: "cover",
+          height: '590px',
+          backgroundSize: 'contain',
+          backgroundRepeat: "no-repeat",
+          position: 'relative'
+          ,
+
+
         }}
       ></h2>
-      <h2 style={{ marginTop: "80px", color: "#488dc7" }}>{title}</h2>
+      <h2 style={{ marginTop: "60px", color: "#488dc7" }}>{title}</h2>
       <div
         style={{ display: "flex", flexWrap: "wrap", paddingBottom: "200px" }}
       >
@@ -29,6 +35,6 @@ export default function MathClass({ title, background_image, data }) {
             />
           ))}
       </div>
-    </div>
+    </div >
   );
 }

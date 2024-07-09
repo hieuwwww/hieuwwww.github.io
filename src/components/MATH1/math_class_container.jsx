@@ -13,7 +13,7 @@ export default function MathClassContainer({ title, background_image, data, }) {
         background_image={background_image}
         data={data}
       />
-      <NextPage />
+      {/* <NextPage /> */}
     </div>
   );
 }

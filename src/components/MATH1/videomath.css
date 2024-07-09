@@ -17,12 +17,14 @@
 .container_video_text {
     text-align: left;
     flex: 1;
-    background-image: url('/public/pics/meo.jpg');
+    background-image: url('/public/pics/slide2.jpg');
     margin-bottom: 0;
     display: flex;
-    background-size: contain;
+    background-size: cover;
     border-radius: 10px;
     border: 1px solid green;
+    color: #000000;
+    z-index: 8;
 
 }
 
@@ -40,14 +42,12 @@
     cursor: pointer;
     border: 1px solid black;
     text-wrap: nowrap;
-    opacity: 0.5;
-
-    font-size: 15.3px;
+    font-size: 16.3px;
+    background-image: none;
 }
 
 .button_lithuyet:hover {
-
-    opacity: 1;
+    background-image: linear-gradient(#FFFFFF, rgb(242, 222, 185));
 }
 
 .container_video_icon {
