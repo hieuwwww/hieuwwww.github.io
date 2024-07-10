@@ -16,8 +16,16 @@ h1 {
   padding: 10px;
 }
 
-.item_home1 {}
+.item_home1 {
+  box-shadow: -2px 10px 10px rgb(68, 68, 68);
+  transition: ease 0.5s;
 
-.item_home1 a:hover {
-  padding: 5px;
+  padding: 15px 30px;
+  border-radius: 35px;
+  font-size: 25px;
+  margin-left: -20px;
+  background: linear-gradient(48deg, #03AED2, rgb(167, 197, 252));
+  text-shadow: 1px 0 black;
 }
+
+.item_home1:hover {}

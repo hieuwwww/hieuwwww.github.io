@@ -9,12 +9,12 @@ export default function ContentItem({ title, content, isOne }) {
 
   return (
     <div className="content con1">
-      <h2>
+      <h2 onClick={isDropDown} style={{ cursor: 'pointer' }}>
         {title}
         <i
           onClick={isDropDown}
           className="fa-solid fa-thumbtack fa-rotate-by"
-          style={{ fontSize: "20px", rotate: "45deg" }}
+          style={{ fontSize: "30px", rotate: "45deg", color: '#488dc7' }}
         ></i>
       </h2>
       {dropDown && (

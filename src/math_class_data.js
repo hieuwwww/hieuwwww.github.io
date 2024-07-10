@@ -218,6 +218,11 @@ const class_content_3 = [
     video_link: "https://www.youtube.com/embed/Mxc9pkfsBk0?si=Jq8cavZk5deMtmno",
     ly_thuyet: "/toan3/clip6",
   },
+  {
+    title: "Bài 6: Bảng nhân 7",
+    video_link: "https://www.youtube.com/embed/Mxc9pkfsBk0?si=Jq8cavZk5deMtmno",
+    ly_thuyet: "/toan3/clip7",
+  },
   // {
   //   title: "Bài 7",
   //   video_link: "",
@@ -237,52 +242,52 @@ const class_content_3 = [
 const class_content_4 = [
   {
     title: "Bài 1: Ôn Tập Về Số Và Phép Tính Trong Phạm Vi 100000",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/FX1-U2FYaZc?si=7vuG9BcnjxrE5ExE",
     ly_thuyet: "/toan4/clip1",
   },
   {
     title: "Bài 2:  Ôn Tập Về Hình Học Và Đo Lường ",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/YiqAJFLY5_8?si=DWUWHEZHP0sH9Hus",
     ly_thuyet: "/toan4/clip2",
   },
   {
     title: "Bài 3: Các Số Trong Phạm Vi 1000000 (Phần 1)",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/vfeOJjoha5I?si=6S2Kt2TE4IvasofD",
     ly_thuyet: "/toan4/clip3",
   },
   {
     title: "Bài 4: Các Số Trong Phạm Vi 1000000 (Phần 2)",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/MvnDzek0HKw?si=GsrltRXwbyPQ_8ag",
     ly_thuyet: "/toan4/clip4",
   },
   {
     title: "Bài 5: Các Số Có Nhiều Chữ Số",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/maSL83dX0oI?si=dEtZctQALnrwqGpx",
     ly_thuyet: "/toan4/clip5",
   },
   {
     title: "Bài 6: Các Số Có Nhiều Chữ Số (Phần 2) ",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/6aJLaXz7Jls?si=zNu1_JtAbDq5wf_3",
     ly_thuyet: "/toan4/clip6",
   },
   {
     title: "Bài 7: Luyện Tập",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/IRyFrmm7lSE?si=Tzgq3804y9QVgB8s",
     ly_thuyet: "/toan4/clip7",
   },
   {
     title: "Bài 8: So Sánh Các Số Có Nhiều Chữ Số ",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/TmmN_Xhr5NE?si=DEQoUE1m2OJMHg6J",
     ly_thuyet: "/toan4/clip8",
   },
   {
     title: "Bài 9: Làm Tròn Số Đến Hàng Trăm Nghìn",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/95yCxPXXzXE?si=O7Gv_rD_tPJujwCG",
     ly_thuyet: "/toan4/clip9",
   },
   {
     title: "Bài 10: Số Tự Nhiên - Dãy Số Tự Nhiên ",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/2fAiMFMwjPs?si=WytZf4xQPFflXWlx",
     ly_thuyet: "/toan4/clip10",
   },
 
@@ -372,49 +377,54 @@ const class_content_5 = [
 ];
 const class_content_dethi = [
   {
-    title: "Bài 1: khái niệm - luyện tập vận dụng 3 - toán 1 | mathfun",
+    title: "Đề thi học kì 1 - toán 1 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip1",
   },
   {
-    title: "Bài 2",
-    video_link: "",
+    title: "Đề thi học kì 2 - toán 1 | mathfun",
+    video_link: "https://www.youtube.com/embed/lV1GF3B2Sxc?si=Y1N91l--olhCkvu1",
     ly_thuyet: "/dethi/clip2",
   },
   {
-    title: "Bài 3",
+    title: "Đề thi học kì 1 - toán 2 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip3",
   },
   {
-    title: "Bài 4",
+    title: "Đề thi học kì 2 - toán 2 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip4",
   },
   {
-    title: "Bài 5",
+    title: "Đề thi học kì 1 - toán 3 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip5",
   },
   {
-    title: "Bài 6",
+    title: "Đề thi học kì 2 - toán 3 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip6",
   },
   {
-    title: "Bài 7",
+    title: "Đề thi học kì 1 - toán 4 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip7",
   },
   {
-    title: "Bài 8",
+    title: "Đề thi học kì 2 - toán 4 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip8",
   },
   {
-    title: "Bài 9",
+    title: "Đề thi học kì 1 - toán 5 | mathfun",
     video_link: "",
     ly_thuyet: "/dethi/clip9",
+  },
+  {
+    title: "Đề thi học kì 2 - toán 5 | mathfun",
+    video_link: "",
+    ly_thuyet: "/dethi/clip10",
   },
 ];
 

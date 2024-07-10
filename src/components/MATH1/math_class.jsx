@@ -5,7 +5,7 @@ import VIDEO from "./videomath";
 
 export default function MathClass({ title, background_image, data }) {
   return (
-    <div style={{ marginLeft: "25%", marginTop: "8%" }}>
+    <div style={{ marginLeft: "25%", marginTop: "9.8%" }}>
       <h2
         style={{
           backgroundImage: `url("${background_image}")`,
@@ -20,7 +20,7 @@ export default function MathClass({ title, background_image, data }) {
 
         }}
       ></h2>
-      <h2 style={{ marginTop: "60px", color: "#488dc7" }}>{title}</h2>
+      <h2 style={{ marginTop: "-10px", color: "#488dc7", fontSize: '35px', fontFamily: 'sans-serif', marginBottom: '-19px', textShadow: '1.5px 0px black', letterSpacing: '2px', borderBottom: '1px solid black', maxWidth: '86%', paddingBottom: '10px' }}>{title}</h2>
       <div
         style={{ display: "flex", flexWrap: "wrap", paddingBottom: "200px" }}
       >

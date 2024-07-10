@@ -29,7 +29,7 @@ export default function VIDEO({ title, video_link, ly_thuyet }) {
         <p style={{ zIndex: '9', }}>{title}</p>
         <Link className="button_lithuyet" style={{ color: "#000000", maxWidth: '22%' }} to={/*'/toan1/clip1'*/ ly_thuyet}>
 
-          <p >Lí thuyết</p>
+          <p style={{ marginLeft: '-2px' }}>Lí thuyết</p>
 
         </Link>
       </div>

@@ -43,10 +43,13 @@ const NavBar = () => {
           <Link to="/contact">Liên hệ</Link>
           <span className="dnhap_dki">
             <li>
-              <a href=""><i className="fa-brands fa-tiktok"></i></a>
+              <a className="tiktok" href="https://www.tiktok.com/@xinmotchutbinhyen?_t=8nuFAHRyjuU&_r=1" target="_blank" ><i className="fa-brands fa-tiktok"></i></a>
             </li>
             <li>
-              <a href=""><i className="fa-brands fa-facebook"></i></a>
+              <a className="facebook" href="https://www.facebook.com/fptu.LearnSmart" target="_blank"><i className="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a className="youtube" href="https://www.youtube.com/@mathfunzz" target="_blank"><i className="fa-brands fa-youtube"></i></a>
             </li>
           </span>
         </ul>

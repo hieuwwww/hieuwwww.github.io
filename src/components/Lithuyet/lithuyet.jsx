@@ -83,7 +83,7 @@ export default function Lithuyet({ src, data, linkpath }) {
             <div id="noidungLithuyet" className="container_noidung_lithuyet" style={{ minWidth: '75%', maxWidth: '75%' }}>
                 <ul>
                     <li>
-                        <h2 style={{ fontFamily: 'sans-serif', fontSize: '33.5px', textShadow: '1px 1px 0 black' }}>{data.title}</h2>
+                        <h2 style={{ fontFamily: 'sans-serif', fontSize: '33.5px', textShadow: '1px 1px 0 black', marginTop: '-15%' }}>{data.title}</h2>
                         {data.subtitle.map((subtitle, subIndex) => (
                             <div key={subIndex} style={{ fontFamily: 'sans-serif' }}>
                                 <h3 style={{ marginTop: '7%', fontFamily: 'sans-serif', fontSize: '27.7px', color: '#444444' }}>{subtitle}</h3>

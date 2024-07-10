@@ -954,332 +954,446 @@ const dataLiThuyetlop1_12 = [
     }
 ]
 const dataLiThuyetlop3_1 = [
+
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 3 - Bài 1',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Vẽ phép cộng và phép trừ trong phạm vi 1000',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này nhằm ôn tập và vẽ phép cộng, phép trừ trong phạm vi 1000. Học sinh sẽ học và thực hành các phép tính này để nâng cao kỹ năng toán học của mình. Các câu hỏi bao gồm các ví dụ về phép cộng và phép trừ như sau:'],
+            ['Ví dụ:'],
+            []
         ],
-
         subNoidung: [
-            [[]],
-            [[]],
-            [[]]
+            [
+                [
+                    '- 324 + 187 = ?',
+                    '- 895 - 426 = ?',
+                    '- 532 + 441 = ?',
+                    '- 719 - 213 = ?'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể sử dụng phép cộng và phép trừ để giải quyết các câu hỏi này. Ví dụ, để tính toán phép tính - 324 + 187, họ có thể thực hiện như sau:',
+                    'Đầu tiên, thực hiện phép cộng 300 + 100 = 400.',
+                    'Tiếp theo, thực hiện phép cộng 20 + 80 = 100.',
+                    'Cuối cùng, thực hiện phép cộng 4 + 7 = 11.',
+                    'Do đó, kết quả của phép tính - 324 + 187 là 11.'
+                ]
+            ],
+            []
         ],
-
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
-            '/pics/blocket.jpg'
+            '/pics/311.jpg',
+            '/pics/312.jpg',
+            '/pics/313.jpg',
+
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',],
+            '/pics/blooket3.webp'
+        ],
         pathname: '/toan3/clip1',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ"
-        , topath: '/toan3'
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=_3HwxOQPrvSI-ZZQ",
+        topath: '/toan3'
     }
+
 ]
 const dataLiThuyetlop3_2 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 3 - Bài 2',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Ôn tập phép nhân 2 và nhân 5',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này nhằm ôn tập và thực hành phép nhân 2 và nhân 5. Học sinh sẽ học cách nhân các số từ 1 đến 10 với số 2 và số 5 để nâng cao kỹ năng toán học của mình.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Bảng nhân 2:',
+                    '- 1 x 2 = 2',
+                    '- 2 x 2 = 4',
+                    '- 3 x 2 = 6',
+                    '- 4 x 2 = 8',
+                    '- 5 x 2 = 10',
+                    '- 6 x 2 = 12',
+                    '- 7 x 2 = 14',
+                    '- 8 x 2 = 16',
+                    '- 9 x 2 = 18',
+                    '- 10 x 2 = 20',
+                    'Bảng nhân 5:',
+                    '- 1 x 5 = 5',
+                    '- 2 x 5 = 10',
+                    '- 3 x 5 = 15',
+                    '- 4 x 5 = 20',
+                    '- 5 x 5 = 25',
+                    '- 6 x 5 = 30',
+                    '- 7 x 5 = 35',
+                    '- 8 x 5 = 40',
+                    '- 9 x 5 = 45',
+                    '- 10 x 5 = 50'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể sử dụng bảng nhân để giải các ví dụ sau:',
+                    '- 3 x 2 = ?',
+                    '- 7 x 5 = ?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
-            '/pics/blocket.jpg'
+            '/pics/321.jpg',
+            '/pics/322.jpg',
+            '/pics/323.jpeg',
+
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan3/clip2',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ",
-        topath: '/toan3'
-    },
+        pathname: '/toan3/clip2',
+        srcvideo: "https://www.youtube.com/embed/4VrE6nVY748?si=7M8Z8nqtZMee_oXK", topath: '/toan3'
+    }
 ]
 
 
 const dataLiThuyetlop3_3 = [
     {
-        title: '1. Làm quen với một số hình 2',
+        title: 'Toán Lớp 3 - Bài 3 | Mi li mét',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm cơ bản về mi li mét',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh hiểu và thực hành về đơn vị đo độ dài "mi" và "li mét". Mi là đơn vị đo dài trong hệ đo lường cổ, tương đương khoảng 1.2 mét.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    '1 mi = 1.2 mét',
+                    '2 mi = 2.4 mét',
+                    '3 mi = 3.6 mét',
+                    '4 mi = 4.8 mét',
+                    '5 mi = 6 mét',
+                    '6 mi = 7.2 mét',
+                    '7 mi = 8.4 mét',
+                    '8 mi = 9.6 mét',
+                    '9 mi = 10.8 mét',
+                    '10 mi = 12 mét'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng khái niệm này trong các ví dụ như:',
+                    '- Đo khoảng cách từ A đến B là 5 mi, tính tổng số mét?',
+                    '- Nếu đo được 3 mi, thì tương đương bao nhiêu mét?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
-            '/pics/blocket.jpg'
+            '/pics/332.png',
+            '/pics/331.jpg',
+            '/pics/333.png',
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan3/clip3',
-        srcvideo:
-            "https://www.youtube.com/embed/Cnb32kAqV0A?si=tyZnJ1IsCdppn9sf", topath: '/toan3'
-
+        pathname: '/toan3/clip3',
+        srcvideo: "https://www.youtube.com/embed/hKk7-xpXDh0?si=4lx7L7haO7onH_9T", topath: '/toan3'
     }
 ]
 
 
 const dataLiThuyetlop3_4 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 3 - Bài 4 | Bảng nhân 3',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm bảng nhân 3',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này nhằm giúp học sinh ôn tập và thực hành bảng nhân 3. Học sinh sẽ học cách nhân các số từ 1 đến 10 với số 3 để nâng cao kỹ năng toán học của mình.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        subNoidung: [],
-
+        subNoidung: [
+            [
+                [
+                    'Bảng nhân 3:',
+                    '- 1 x 3 = 3',
+                    '- 2 x 3 = 6',
+                    '- 3 x 3 = 9',
+                    '- 4 x 3 = 12',
+                    '- 5 x 3 = 15',
+                    '- 6 x 3 = 18',
+                    '- 7 x 3 = 21',
+                    '- 8 x 3 = 24',
+                    '- 9 x 3 = 27',
+                    '- 10 x 3 = 30'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể sử dụng bảng nhân để giải các ví dụ sau:',
+                    '- 3 x 3 = ?',
+                    '- 7 x 3 = ?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/ngaygiophut1.jpg',
+            '/pics/ngaygiophut2.png',
+            '/pics/ngaygiophut1.5.jpg',
+            '/pics/ngaygiophut3.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan3/clip4',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan3'
-
+        pathname: '/toan3/clip4',
+        srcvideo: "https://www.youtube.com/embed/i_ncpBR8eFE?si=avnhvnzegRz05S7R", topath: '/toan3'
     }
 ]
 
 
 const dataLiThuyetlop3_5 = [
     {
-        title: '1. Làm quen với một số hình 3',
+        title: 'Toán Lớp 3 - Bài 5 | Bảng nhân 4',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm bảng nhân 4',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này nhằm giúp học sinh ôn tập và thực hành bảng nhân 4. Học sinh sẽ học cách nhân các số từ 1 đến 10 với số 4 để nâng cao kỹ năng toán học của mình.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Bảng nhân 4:',
+                    '- 1 x 4 = 4',
+                    '- 2 x 4 = 8',
+                    '- 3 x 4 = 12',
+                    '- 4 x 4 = 16',
+                    '- 5 x 4 = 20',
+                    '- 6 x 4 = 24',
+                    '- 7 x 4 = 28',
+                    '- 8 x 4 = 32',
+                    '- 9 x 4 = 36',
+                    '- 10 x 4 = 40'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể sử dụng bảng nhân để giải các ví dụ sau:',
+                    '- 3 x 4 = ?',
+                    '- 7 x 4 = ?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/ngaygiophut1.jpg',
+            '/pics/ngaygiophut2.png',
+            '/pics/ngaygiophut1.5.jpg',
+            '/pics/ngaygiophut3.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan3/clip5',
-        srcvideo:
-            "https://www.youtube.com/embed/Dnj5FglKgKk?si=cKiVd14_e_vgxLnl", topath: '/toan3'
-
+        pathname: '/toan3/clip5',
+        srcvideo: "https://www.youtube.com/embed/tQH86JSp6VI?si=nRbPvsz2x0NIlNFP", topath: '/toan3'
     }
 ]
 
 
 const dataLiThuyetlop3_6 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Bảng Nhân 6',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm cơ bản:',
+            '2. Ví dụ: ',
+            '3. luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bảng nhân 7'],
+            ['Ví dụ:'],
+            []
         ],
 
-        noidungsub: [['troll1', 'troll2'], [], []],
+        subNoidung: [
+            [
+                [
+                    'Bảng nhân 6 là bảng ghi nhớ kết quả của phép nhân các số từ 1 đến 10 với số 6. Đây là một phần quan trọng trong việc học toán vì giúp nhớ các kết quả nhân một cách nhanh chóng và dễ dàng. Dưới đây là bảng nhân 6'
+                ]
+            ],
+            [
+                [
+                    '1 x 6 = 6',
+                    '2 x 6 = 12',
+                    '3 x 6 = 18',
+                    '4 x 6 = 24',
+                    '5 x 6 = 30',
+                    '6 x 6 = 36',
+                    '7 x 6 = 42',
+                    '8 x 6 = 48',
+                    '9 x 6 = 54',
+                    '10 x 6 = 60'
+
+                ]
+            ],
+            []
+        ],
 
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/ngaygiophut1.jpg',
+            '/pics/ngaygiophut2.png',
+            '/pics/ngaygiophut1.5.jpg',
+            '/pics/ngaygiophut3.jpg',
+
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
-        ],
-        pathname:
-            '/toan3/clip6',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan3'
 
+        ],
+        pathname: '/toan3/clip6',
+        srcvideo: "https://www.youtube.com/embed/Mxc9pkfsBk0?si=tM4r5s3yQVt5UMp9", topath: '/toan3'
     }
 ]
 
 
 const dataLiThuyetlop3_7 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Bảng Nhân 7',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm cơ bản:',
+            '2. Ví dụ: ',
+            '3. luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bảng nhân 7'],
+            ['Ví dụ:'],
+            []
         ],
 
-        noidungsub: [['troll1', 'troll2'], [], []],
+        subNoidung: [
+            [
+                [
+                    'Bảng nhân 7 là bảng ghi nhớ kết quả của phép nhân các số từ 1 đến 10 với số 7. Đây là một phần quan trọng trong việc học toán vì giúp nhớ các kết quả nhân một cách nhanh chóng và dễ dàng. Dưới đây là bảng nhân 7'
+                ]
+            ],
+            [
+                [
+                    '1 x 7 = 7',
+                    '2 x 7 = 14',
+                    '3 x 7 = 21',
+                    '4 x 7 = 28',
+                    '5 x 7 = 35',
+                    '6 x 7 = 42',
+                    '7 x 7 = 49',
+                    '8 x 7 = 56',
+                    '9 x 7 = 63',
+                    '10 x 7 = 70'
+
+                ]
+            ],
+            []
+        ],
 
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/371.webp',
+            '/pics/372.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6676aa4686a83baf46ed58bb',
+            'https://dashboard.blooket.com/set/6676aa4686a83baf46ed58bb',
+            'https://dashboard.blooket.com/set/6676aa4686a83baf46ed58bb',
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
             '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+
         ],
-        pathname:
-            '/toan3/clip7',
+        pathname: '/toan3/clip7',
         srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan3'
-
-
     }
 ]
+
 const dataLiThuyetlop3_8 = [
     {
         title: '1. Làm quen với một số hình',
@@ -2737,412 +2851,574 @@ const dataLiThuyetlop2_22 = [
 ////// LOP 4
 const dataLiThuyetlop4_1 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 1 | Ôn Tập Về Số Và Phép Tính Trong Phạm Vi 100000',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm cơ bản về số và phép tính trong phạm vi 100000',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh ôn tập và thực hành các số và phép tính trong phạm vi 100000. Học sinh sẽ học cách đếm, viết và thực hiện các phép cộng, trừ, nhân và chia trong phạm vi này để nâng cao kỹ năng toán học của mình.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Các số từ 1 đến 100000:',
+                    '1, 2, 3, ..., 99998, 99999, 100000',
+                    'Phép cộng: 45678 + 12345 = ?',
+                    'Phép trừ: 98765 - 43210 = ?',
+                    'Phép nhân: 1234 x 56 = ?',
+                    'Phép chia: 98765 ÷ 123 = ?'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể sử dụng các số này để thực hành các ví dụ sau:',
+                    '- Đếm từ 1 đến 100.',
+                    '- Viết các số từ 1000 đến 1010.',
+                    '- Tính tổng của 54321 và 12345.',
+                    '- Tính hiệu của 98765 và 54321.',
+                    '- Nhân 6789 với 12.',
+                    '- Chia 98765 cho 5.'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',],
+            '/pics/blooket3.webp'
+        ],
         pathname: '/toan4/clip1',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
-
+        srcvideo: "https://www.youtube.com/embed/FX1-U2FYaZc?si=GYkyjBZBacnR6sS1", topath: '/toan4'
     }
 ]
 const dataLiThuyetlop4_2 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 2 | Ôn Tập Về Hình Học Và Đo Lường',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm cơ bản về hình học và đo lường',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh ôn tập và thực hành các khái niệm cơ bản về hình học và đo lường. Học sinh sẽ học cách nhận biết và phân loại các hình học cơ bản, cũng như cách đo và tính toán diện tích, chu vi của các hình này. Đây là một phần quan trọng trong chương trình toán lớp 4 nhằm phát triển khả năng tư duy không gian và kỹ năng thực hành đo lường của học sinh.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    '1. Các hình học cơ bản:',
+                    '- Hình vuông: Là hình có bốn cạnh bằng nhau và bốn góc vuông.',
+                    '- Hình chữ nhật: Là hình có hai cặp cạnh đối song song và bằng nhau, bốn góc vuông.',
+                    '- Hình tam giác: Là hình có ba cạnh và ba góc. Tam giác có thể là tam giác đều, tam giác cân, hoặc tam giác thường.',
+                    '- Hình tròn: Là hình có tất cả các điểm cách đều một điểm trung tâm một khoảng cách nhất định gọi là bán kính.',
+                    '2. Các khái niệm đo lường:',
+                    '- Chu vi: Là tổng độ dài tất cả các cạnh của một hình. Ví dụ, chu vi hình vuông bằng 4 lần độ dài một cạnh.',
+                    '- Diện tích: Là lượng không gian bên trong một hình. Ví dụ, diện tích hình vuông bằng cạnh nhân với cạnh.'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng các khái niệm này trong các ví dụ sau:',
+                    '- Tính chu vi và diện tích của một hình vuông có cạnh dài 5 cm.',
+                    '- Tính chu vi và diện tích của một hình chữ nhật có chiều dài 8 cm và chiều rộng 4 cm.',
+                    '- Tính chu vi và diện tích của một hình tam giác đều có cạnh dài 6 cm.',
+                    '- Tính chu vi và diện tích của một hình tròn có bán kính 3 cm.'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/hinhhoc1.jpg',
+            '/pics/hinhhoc2.png',
+            '/pics/hinhhoc3.jpg',
+            '/pics/hinhhoc4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip2',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
-
-    },
+        pathname: '/toan4/clip2',
+        srcvideo: "https://www.youtube.com/embed/YiqAJFLY5_8?si=vkFrsXeydnhYYtki", topath: '/toan4'
+    }
 ]
 
 
 const dataLiThuyetlop4_3 = [
     {
-        title: '1. Làm quen với một số hình 2',
+        title: 'Toán Lớp 4 - Bài 3 | Các Số Trong Phạm Vi 1000000 (Phần 1)',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm về các số trong phạm vi 1000000 (Phần 1)',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh làm quen và nhận biết các số trong phạm vi 1000000. Trong phần 1, học sinh sẽ học cách đọc, viết và đếm các số này. Đây là một phần quan trọng trong chương trình toán lớp 4 nhằm phát triển khả năng nhận biết và sử dụng các số lớn.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Các số từ 1 đến 1000000:',
+                    '1, 2, 3, ..., 999998, 999999, 1000000',
+                    'Học sinh sẽ học cách đọc và viết các số lớn, nhận biết giá trị của từng chữ số trong một số.'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng các khái niệm này trong các ví dụ sau:',
+                    '- Đọc và viết số 123456.',
+                    '- Đếm từ 100000 đến 100010.',
+                    '- Viết số 789012 thành chữ.'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip3',
-        srcvideo:
-            "https://www.youtube.com/embed/Cnb32kAqV0A?si=tyZnJ1IsCdppn9sf", topath: '/toan4'
-
+        pathname: '/toan4/clip3',
+        srcvideo: "https://www.youtube.com/embed/vfeOJjoha5I?si=jSc3BS5QzKtwNneD", topath: '/toan4'
     }
 ]
 
 
 const dataLiThuyetlop4_4 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 3 | Các Số Trong Phạm Vi 1000000 (Phần 2)',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm về các số trong phạm vi 1000000 (Phần 2)',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Trong phần 2, học sinh sẽ học cách so sánh, sắp xếp và thực hiện các phép tính cơ bản với các số trong phạm vi 1000000. Điều này giúp học sinh nâng cao kỹ năng làm việc với các số lớn và áp dụng chúng trong các bài toán thực tế.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'So sánh và sắp xếp các số trong phạm vi 1000000:',
+                    '- So sánh hai số: 543210 và 987654.',
+                    '- Sắp xếp các số: 123456, 654321, 789012, 345678 theo thứ tự tăng dần.'
+                ]
+            ],
+            [
+                [
+                    'Phép tính cơ bản với các số trong phạm vi 1000000:',
+                    '- Cộng: 345678 + 123456 = ?',
+                    '- Trừ: 987654 - 654321 = ?',
+                    '- Nhân: 12345 x 67 = ?',
+                    '- Chia: 987654 ÷ 123 = ?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip4',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
-
+        pathname: '/toan4/clip4',
+        srcvideo: "https://www.youtube.com/embed/MvnDzek0HKw?si=TecAOFTtGk2lYHE5", topath: '/toan4'
     }
 ]
 
 
 const dataLiThuyetlop4_5 = [
     {
-        title: '1. Làm quen với một số hình 3',
+        title: 'Toán Lớp 4 - Bài 5 | Các Số Có Nhiều Chữ Số',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm về các số có nhiều chữ số',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh làm quen và nhận biết các số có nhiều chữ số. Học sinh sẽ học cách đọc, viết và so sánh các số lớn này, cũng như thực hiện các phép tính cơ bản với chúng. Đây là một phần quan trọng trong chương trình toán lớp 4 nhằm phát triển khả năng làm việc với các số lớn và nâng cao kỹ năng toán học của học sinh.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Các số có nhiều chữ số:',
+                    '- Các số có nhiều chữ số là những số có từ 4 chữ số trở lên, chẳng hạn như: 1234, 56789, 123456, 7890123, ...',
+                    '- Học sinh sẽ học cách đọc, viết các số lớn, và nhận biết giá trị của từng chữ số trong một số. Ví dụ, số 345678 có chữ số hàng trăm nghìn là 3, chữ số hàng chục nghìn là 4, chữ số hàng nghìn là 5, ...'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng các khái niệm này trong các ví dụ sau:',
+                    '- Đọc và viết số 456789.',
+                    '- Đếm từ 1000000 đến 1000010.',
+                    '- Viết số 9876543 thành chữ.',
+                    '- So sánh hai số 3456789 và 9876543.',
+                    '- Thực hiện các phép tính cơ bản với các số lớn: 123456 + 789012, 987654 - 123456, ...'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip5',
-        srcvideo:
-            "https://www.youtube.com/embed/Dnj5FglKgKk?si=cKiVd14_e_vgxLnl", topath: '/toan4'
-
+        pathname: '/toan4/clip5',
+        srcvideo: "https://www.youtube.com/embed/maSL83dX0oI?si=_AmGlYUMZ8QvtO7m", topath: '/toan4'
     }
 ]
 
 
 const dataLiThuyetlop4_6 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 6 | Các Số Có Nhiều Chữ Số (Phần 2)',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm về các số có nhiều chữ số (Phần 2)',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Trong phần 2, học sinh sẽ học cách so sánh, sắp xếp và thực hiện các phép tính cơ bản với các số có nhiều chữ số. Điều này giúp học sinh nâng cao kỹ năng làm việc với các số lớn và áp dụng chúng trong các bài toán thực tế.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'So sánh và sắp xếp các số có nhiều chữ số:',
+                    '- So sánh hai số: 543210 và 987654.',
+                    '- Sắp xếp các số: 123456, 654321, 789012, 345678 theo thứ tự tăng dần.'
+                ]
+            ],
+            [
+                [
+                    'Phép tính cơ bản với các số có nhiều chữ số:',
+                    '- Cộng: 345678 + 123456 = ?',
+                    '- Trừ: 987654 - 654321 = ?',
+                    '- Nhân: 12345 x 67 = ?',
+                    '- Chia: 987654 ÷ 123 = ?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip6',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
-
+        pathname: '/toan4/clip6',
+        srcvideo: "https://www.youtube.com/embed/6aJLaXz7Jls?si=atLZ1rlI790Tgyiq",
+        topath: '/toan4'
     }
 ]
 
 
 const dataLiThuyetlop4_7 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 7 | Luyện Tập',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Ôn tập các khái niệm về số học',
+            '2. Bài tập:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài luyện tập này giúp học sinh củng cố và rèn luyện các kỹ năng đã học về số học và các phép tính cơ bản. Học sinh sẽ áp dụng các kiến thức đã học vào việc giải quyết các bài toán thực tế.'],
+            ['Bài tập:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Ôn tập các khái niệm về số học:',
+                    '- Đọc và viết các số có nhiều chữ số.',
+                    '- So sánh và sắp xếp các số có nhiều chữ số.',
+                    '- Thực hiện các phép tính cơ bản: cộng, trừ, nhân, chia với các số lớn.'
+                ]
+            ],
+            [
+                [
+                    'Giải các bài toán sau:',
+                    '- Bài toán 1: 123456 + 654321 = ?',
+                    '- Bài toán 2: 987654 - 123456 = ?',
+                    '- Bài toán 3: 12345 x 67 = ?',
+                    '- Bài toán 4: 987654 ÷ 123 = ?'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip7',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
-
-
+        pathname: '/toan4/clip7',
+        srcvideo: "https://www.youtube.com/embed/IRyFrmm7lSE?si=zHmO1gn-VsOTa5cj",
+        topath: '/toan4'
     }
 ]
 const dataLiThuyetlop4_8 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 8 | So Sánh Các Số Có Nhiều Chữ Số',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm về so sánh các số có nhiều chữ số',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh học cách so sánh các số có nhiều chữ số. Học sinh sẽ biết cách xác định số nào lớn hơn, nhỏ hơn hoặc bằng nhau khi so sánh các số lớn. Đây là một kỹ năng quan trọng trong việc làm việc với các số lớn và giải quyết các bài toán thực tế.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Khái niệm về so sánh các số có nhiều chữ số:',
+                    '- Khi so sánh các số có nhiều chữ số, học sinh cần xem xét từng chữ số từ trái sang phải để xác định số nào lớn hơn, nhỏ hơn hoặc bằng nhau.',
+                    '- Ví dụ: So sánh số 543210 và 987654. Số 987654 lớn hơn số 543210.'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng các khái niệm này trong các ví dụ sau:',
+                    '- So sánh hai số 3456789 và 9876543.',
+                    '- So sánh các số: 123456, 654321, 789012, 345678.'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
-        pathname:
-            '/toan4/clip8',
-        srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
-
+        pathname: '/toan4/clip8',
+        srcvideo: "https://www.youtube.com/embed/TmmN_Xhr5NE?si=Dkboes2c40zbRI3D",
+        topath: '/toan4'
     }
 ]
 const dataLiThuyetlop4_9 = [
     {
-        title: '1. Làm quen với một số hình',
+        title: 'Toán Lớp 4 - Bài 9 | Làm Tròn Số Đến Hàng Trăm Nghìn',
         subtitle: [
-            '1. Vị trí',
-            '2. Khối hộp chữ nhật - Khối lập phương',
-            '3. Hình tròn - Hình tam giác - Hình vuông - Hình chữ nhật',
-            '4. Xếp hình',
-            '5. Luyện tập',
+            '1. Khái niệm về làm tròn số đến hàng trăm nghìn',
+            '2. Ví dụ:',
+            '3. Luyện tập'
         ],
         noidung: [
-            ['troll1', 'troll2', 'troll3'], ['4', '5', '6'], ['7', '8', '9']
-
+            ['Bài toán này giúp học sinh học cách làm tròn số đến hàng trăm nghìn. Học sinh sẽ hiểu cách xác định chữ số quan trọng và cách làm tròn số theo quy tắc làm tròn.'],
+            ['Ví dụ:'],
+            []
         ],
-
-        noidungsub: [['troll1', 'troll2'], [], []],
-
+        subNoidung: [
+            [
+                [
+                    'Khái niệm về làm tròn số đến hàng trăm nghìn:',
+                    '- Khi làm tròn số đến hàng trăm nghìn, học sinh cần xác định chữ số ở hàng chục nghìn và quyết định làm tròn lên hoặc làm tròn xuống dựa trên chữ số đó.',
+                    '- Ví dụ: Làm tròn số 543210 đến hàng trăm nghìn. Số làm tròn sẽ là 500000.'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng các khái niệm này trong các ví dụ sau:',
+                    '- Làm tròn số 456789 đến hàng trăm nghìn.',
+                    '- Làm tròn số 987654 đến hàng trăm nghìn.',
+                    '- Làm tròn số 123456 đến hàng trăm nghìn.'
+                ]
+            ],
+            []
+        ],
         srcpic: [
-            '/pics/1.jpg',
-            '/pics/2.jpg',
-            '/pics/3.jpg',
-            '/pics/4.jpg',
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
             '/pics/blocket.jpg'
         ],
         blooket: [
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
-            'https://dashboard.blooket.com/set/65faf6a43941d75481e0af5f',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
         ],
         blooketPics: [
             '/pics/blooket1.webp',
             '/pics/blooket2.webp',
-            '/pics/blooket3.webp',
-            '/pics/blooket4.webp',
-            '/pics/blooket5.webp',
+            '/pics/blooket3.webp'
         ],
         pathname: '/toan4/clip9',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan4'
+        srcvideo: "https://www.youtube.com/embed/95yCxPXXzXE?si=cwy1EXG1WZ-qO4TS",
+        topath: '/toan4'
+    }
+]
+const dataLiThuyetlop4_10 = [
+    {
+        title: 'Toán Lớp 4 - Bài 10 | Số Tự Nhiên - Dãy Số Tự Nhiên',
+        subtitle: [
+            '1. Khái niệm về số tự nhiên và dãy số tự nhiên',
+            '2. Ví dụ:',
+            '3. Luyện tập'
+        ],
+        noidung: [
+            ['Bài toán này giúp học sinh học về số tự nhiên và dãy số tự nhiên. Học sinh sẽ hiểu khái niệm cơ bản về số tự nhiên và biết cách sắp xếp, đếm và nhận biết các dãy số tự nhiên.'],
+            ['Ví dụ:'],
+            []
+        ],
+        subNoidung: [
+            [
+                [
+                    'Khái niệm về số tự nhiên và dãy số tự nhiên:',
+                    '- Số tự nhiên là các số bắt đầu từ 0, 1, 2, 3, ... và tiếp tục mãi mãi.',
+                    '- Dãy số tự nhiên là một chuỗi các số tự nhiên được sắp xếp theo thứ tự từ nhỏ đến lớn.'
+                ]
+            ],
+            [
+                [
+                    'Học sinh có thể áp dụng các khái niệm này trong các ví dụ sau:',
+                    '- Đếm từ 1 đến 100.',
+                    '- Xác định số tự nhiên lớn nhất và nhỏ nhất trong dãy số: 10, 20, 30, 40, 50.',
+                    '- Viết dãy số tự nhiên từ 100 đến 110.'
+                ]
+            ],
+            []
+        ],
+        srcpic: [
+            '/pics/so1.jpg',
+            '/pics/so2.png',
+            '/pics/so3.jpg',
+            '/pics/so4.jpg',
+            '/pics/blocket.jpg'
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/toan4/clip10',
+        srcvideo: "https://www.youtube.com/embed/2fAiMFMwjPs?si=DSBQ36cTAl2sxNuW",
+        topath: '/toan4'
     }
 ]
 const dataLiThuyetlop5_1 = [
@@ -3913,6 +4189,427 @@ const dataLiThuyetlop5_16 = [
         srcvideo: "https://www.youtube.com/embed/uWr7OIFwDuQ?si=aaudwi1wRTQ8ixe3", topath: '/toan5'
     }
 ]
+
+const dataDeThiLop1_hk1 = [
+    {
+        title: 'Đề thi học kì 1 - toán 1 | mathfun',
+        subtitle: [
+            '1. Trắc nghiệm 1 - 5',
+            '2. Trắc nghiệm 6 - 7',
+            '3. Tự luận:',
+        ],
+        noidung: [
+            [],
+            [],
+            []
+
+        ],
+        subNoidung: [
+            [
+            ],
+
+            [],
+            []
+        ],
+        srcpic: [
+            '/pics/hk11tracnghiem.jpg',
+            '/pics/hk11tracnghiem2.jpg',
+            '/pics/hk11tuluan.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip1',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop1_hk2 = [
+    {
+        title: 'Đề thi học kì 2 - toán 1 | mathfun',
+        subtitle: [
+            '1. Phần 1',
+            '2. Phần 2',
+            '3. Phần 3',
+
+        ],
+        noidung: [
+            [],
+            [],
+            []
+        ],
+        subNoidung: [
+            [],
+            [],
+            []
+        ],
+        srcpic: [
+            '/pics/hk12p11.jpg',
+            '/pics/hk12p22.jpg',
+            '/pics/hk12p33.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip2',
+        srcvideo: "https://www.youtube.com/embed/lV1GF3B2Sxc?si=Y1N91l--olhCkvu1",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop2_hk1 = [
+    {
+        title: 'Đề thi học kì 1 - toán 2 | mathfun',
+        subtitle: [
+            '1. Trắc Nghiệm 1 - 5',
+            '2. Trắc Nghiệm 6 - 7',
+            '3. tự luận'
+        ],
+        noidung: [
+            [],
+            [],
+            []
+        ],
+        subNoidung: [
+            [], [], []
+        ],
+        srcpic: [
+            '/pics/hk12p1.jpg',
+            '/pics/hk12p2.jpg',
+            '/pics/hk12p3.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip3',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop2_hk2 = [
+    {
+        title: 'Đề thi học kì 2 - toán 2 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3', 'Phần 4', 'Phần 5', 'Phần 6'
+        ],
+        noidung: [
+            [], [], [], [], [], [],
+        ],
+        subNoidung: [
+            [], [], [], [], [], [],
+        ],
+        srcpic: [
+            '/pics/hk22p1.jpg',
+            '/pics/hk22p2.jpg',
+            '/pics/hk22p3.jpg',
+            '/pics/hk22p4.jpg',
+            '/pics/hk22p5.jpg',
+            '/pics/hk22p6.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip4',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop3_hk1 = [
+    {
+        title: 'Đề thi học kì 1 - toán 3 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3', 'Phần 4', 'Phần 5',
+        ],
+        noidung: [
+            [],
+            [],
+            [],
+            [],
+            [],
+        ],
+        subNoidung: [
+            [], [], [], [], [],
+        ],
+        srcpic: [
+            '/pics/hk13p1.jpg',
+            '/pics/hk13p2.jpg',
+            '/pics/hk13p3.jpg',
+            '/pics/hk13p4.jpg',
+            '/pics/hk13p5.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp',
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+        ],
+        pathname: '/dethi/clip5',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop3_hk2 = [
+    {
+        title: 'Đề thi học kì 2 - toán 3 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3',
+        ],
+        noidung: [
+            [],
+            [],
+            [],
+        ],
+        subNoidung: [
+            [],
+            [],
+            [],
+        ],
+        srcpic: [
+            '/pics/hk23p1.jpg',
+            '/pics/hk23p2.jpg',
+            '/pics/hk23p3.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip6',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop4_hk1 = [
+    {
+        title: 'Đề thi học kì 1 - toán 4 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3',
+        ],
+        noidung: [
+            [],
+            [],
+            [],
+        ],
+        subNoidung: [
+            [],
+            [],
+            [],
+        ],
+        srcpic: [
+            '/pics/hk14p1.jpg',
+            '/pics/hk14p2.jpg',
+            '/pics/hk14p3.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip7',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop4_hk2 = [
+    {
+        title: 'Đề thi học kì 2 - toán 4 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3', 'Phần 4'
+        ],
+        noidung: [
+            [],
+            [],
+            [],
+            [],
+        ],
+        subNoidung: [
+            [],
+            [],
+            [],
+            [],
+        ],
+        srcpic: [
+            '/pics/hk24p1.jpg',
+            '/pics/hk24p2.jpg',
+            '/pics/hk24p3.jpg',
+            '/pics/hk24p4.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip8',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop5_hk1 = [
+    {
+        title: 'Đề thi học kì 1 - toán 5 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3', 'Phần 4',
+        ],
+        noidung: [
+            [],
+            [],
+            [],
+            [],
+        ],
+        subNoidung: [
+            [],
+            [],
+            [],
+            [],
+        ],
+        srcpic: [
+            '/pics/hk15p1.jpg',
+            '/pics/hk15p2.jpg',
+            '/pics/hk15p3.jpg',
+            '/pics/hk15p4.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: [
+            '/pics/blooket2.webp',
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+
+            '/pics/blooket3.webp'
+        ],
+
+        pathname: '/dethi/clip9',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+const dataDeThiLop5_hk2 = [
+    {
+        title: 'Đề thi học kì 2 - toán 5 | mathfun',
+        subtitle: [
+            'Phần 1', 'Phần 2', 'Phần 3', 'Phần 4',
+        ],
+        noidung: [
+            [],
+            [],
+            [],
+            [],
+        ],
+        subNoidung: [
+            [],
+            [],
+            [],
+            [],
+        ],
+        srcpic: [
+            '/pics/hk25p1.jpg',
+            '/pics/hk25p2.jpg',
+            '/pics/hk25p3.jpg',
+            '/pics/hk25p4.jpg',
+
+        ],
+        blooket: [
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33',
+            'https://dashboard.blooket.com/set/6677f1be9d592941df53de33'
+        ],
+        blooketPics: ['/pics/blooket2.webp',
+            '/pics/blooket1.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket2.webp',
+            '/pics/blooket3.webp'
+        ],
+        pathname: '/dethi/clip10',
+        srcvideo: "https://www.youtube.com/embed/Be0dR_YmWwc?si=T5lRP_9B8r2H66TO",
+        topath: '/dethi'
+    }
+]
+
 const dataLiThuyetlop1 = [
     dataLiThuyetlop1_1,
     dataLiThuyetlop1_2,
@@ -3978,12 +4675,11 @@ const dataLiThuyetlop4 = [
     dataLiThuyetlop4_7,
     dataLiThuyetlop4_8,
     dataLiThuyetlop4_9,
-
+    dataLiThuyetlop4_10,
 
 
 ]
 const dataLiThuyetlop5 = [
-
     dataLiThuyetlop5_1,
     dataLiThuyetlop5_2,
     dataLiThuyetlop5_3,
@@ -4013,10 +4709,24 @@ const dataLiThuyetlop5 = [
 //     dataLiThuyetlopdethi_9,
 // ]
 
+const dataDeThi = [
+    dataDeThiLop1_hk1,
+    dataDeThiLop1_hk2,
+    dataDeThiLop2_hk1,
+    dataDeThiLop2_hk2,
+    dataDeThiLop3_hk1,
+    dataDeThiLop3_hk2,
+    dataDeThiLop4_hk1,
+    dataDeThiLop4_hk2,
+    dataDeThiLop5_hk1,
+    dataDeThiLop5_hk2,
+]
+
 export const lithuyet_container = [
     dataLiThuyetlop1,
     dataLiThuyetlop2,
     dataLiThuyetlop3,
     dataLiThuyetlop4,
     dataLiThuyetlop5,
+    dataDeThi,
 ]
