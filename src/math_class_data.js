@@ -3,76 +3,65 @@ const class_content_1 = [
     title: "Chương 1 - Bài 1: Làm quen với một số hình",
     video_link: "https://www.youtube.com/embed/pMEhEVmpCrA?si=qSUd7ORj1Cujv6RG",
     ly_thuyet: "/toan1/clip1",
-    // 
+    //
   },
   {
     title: "Chương 1 - Bài 2: Các số từ 0 đến 10 và  Nhiều hơn, ít hơn",
     video_link: "https://www.youtube.com/embed/723EmWGUjH4?si=bkAiLcPFlh5u2mJl",
     ly_thuyet: "/toan1/clip2",
     tolinkvideo: "",
-
   },
   {
     title: "Chương 1 - Bài 3: So sánh số , mấy và mấy ",
     video_link: "https://www.youtube.com/embed/8JKHomFi2G0?si=CsbSNRwi9ysgdUGj",
     ly_thuyet: "/toan1/clip3",
-
   },
   {
     title: "Chương 1 - Bài 4: Phép cộng , trừ trong phạm vi 10 ",
-    video_link: "https://www.youtube.com/embed/czHjk7P_wQ4?si=vanDNKQeeteE1Rnp  ",
+    video_link:
+      "https://www.youtube.com/embed/czHjk7P_wQ4?si=vanDNKQeeteE1Rnp  ",
     ly_thuyet: "/toan1/clip4",
-
   },
   {
     title: "Chương 1 - Bài 5: Bảng cộng, trừ trong phạm vi 10 ",
     video_link: "https://www.youtube.com/embed/czHjk7P_wQ4?si=fICgkyBO7sZopuT8",
     ly_thuyet: "/toan1/clip5",
-
   },
   {
     title: "Chương 2 - Bài 1: Số có hai chữ số ",
     video_link: "https://www.youtube.com/embed/_KRAgWkprus?si=dGH-w4-YI-BNIzPK",
     ly_thuyet: "/toan1/clip6",
-
   },
   {
     title: "Chương 2 - Bài 2: So sánh số có hai chữ số",
     video_link: "https://www.youtube.com/embed/u9_V7TMcIBQ?si=nkeLcflJNKCXUUVK",
     ly_thuyet: "/toan1/clip7",
-
   },
   {
     title: "Chương 2 - Bài 3: Bảng các số từ 1 đến 100 ",
     video_link: "https://www.youtube.com/embed/_KRAgWkprus?si=dGH-w4-YI-BNIzPK",
     ly_thuyet: "/toan1/clip8",
-
   },
   {
     title: "Chương 2 - Bài 4: Dài hơn, ngắn hơn, đơn vị đo độ dài",
     video_link: "https://www.youtube.com/embed/u9_V7TMcIBQ?si=nkeLcflJNKCXUUVK",
     ly_thuyet: "/toan1/clip9",
-
   },
   {
     title: "Chương 2 - Bài 5: Phép tính với số có hai chữ số",
     video_link: "https://www.youtube.com/embed/hfKnDxkAvmg?si=weFm2MQ2Y4Ym_cgr",
     ly_thuyet: "/toan1/clip10",
-
   },
   {
     title: "Chương 2 - Bài 6: Xem giờ đúng trên đồng hồ",
     video_link: "https://www.youtube.com/embed/hfKnDxkAvmg?si=weFm2MQ2Y4Ym_cgr",
     ly_thuyet: "/toan1/clip11",
-
   },
   {
     title: "Chương 2 - Bài 7: Các ngày trong tuần",
     video_link: "https://www.youtube.com/embed/u9_V7TMcIBQ?si=nkeLcflJNKCXUUVK",
     ly_thuyet: "/toan1/clip12",
-
   },
-
 ];
 
 const class_content_2 = [
@@ -112,7 +101,8 @@ const class_content_2 = [
     ly_thuyet: "/toan2/clip7",
   },
   {
-    title: "Học kì 1 - Bài 8: Phép cộng,trừ (có nhớ) số có hai chữ số với số có một chữ số",
+    title:
+      "Học kì 1 - Bài 8: Phép cộng,trừ (có nhớ) số có hai chữ số với số có một chữ số",
     video_link: "",
     ly_thuyet: "/toan2/clip8",
   },
@@ -142,7 +132,8 @@ const class_content_2 = [
     ly_thuyet: "/toan2/clip13",
   },
   {
-    title: "Học kì 2 - Bài 14: Đơn vị, chục, trăm, nghìn, Các số tròn trăm, tròn chục",
+    title:
+      "Học kì 2 - Bài 14: Đơn vị, chục, trăm, nghìn, Các số tròn trăm, tròn chục",
     video_link: "",
     ly_thuyet: "/toan2/clip14",
   },
@@ -162,7 +153,8 @@ const class_content_2 = [
     ly_thuyet: "/toan2/clip17",
   },
   {
-    title: "Học kì 2 - Bài 18: Đề-xi-mét, mét, ki-lô-mét, Giới thiệu tiền Việt Nam",
+    title:
+      "Học kì 2 - Bài 18: Đề-xi-mét, mét, ki-lô-mét, Giới thiệu tiền Việt Nam",
     video_link: "",
     ly_thuyet: "/toan2/clip18",
   },
@@ -213,6 +205,7 @@ const class_content_3 = [
     video_link: "https://www.youtube.com/embed/tQH86JSp6VI?si=AjgsWX9iBhReIZxT",
     ly_thuyet: "/toan3/clip5",
   },
+
   {
     title: "Bài 6: Bảng nhân 6",
     video_link: "https://www.youtube.com/embed/Mxc9pkfsBk0?si=Jq8cavZk5deMtmno",
@@ -255,6 +248,7 @@ const class_content_4 = [
     video_link: "https://www.youtube.com/embed/vfeOJjoha5I?si=6S2Kt2TE4IvasofD",
     ly_thuyet: "/toan4/clip3",
   },
+
   {
     title: "Bài 4: Các Số Trong Phạm Vi 1000000 (Phần 2)",
     video_link: "https://www.youtube.com/embed/MvnDzek0HKw?si=GsrltRXwbyPQ_8ag",
@@ -290,7 +284,6 @@ const class_content_4 = [
     video_link: "https://www.youtube.com/embed/2fAiMFMwjPs?si=WytZf4xQPFflXWlx",
     ly_thuyet: "/toan4/clip10",
   },
-
 ];
 const class_content_5 = [
   {
@@ -373,7 +366,6 @@ const class_content_5 = [
     video_link: "https://www.youtube.com/embed/uWr7OIFwDuQ?si=aaudwi1wRTQ8ixe3",
     ly_thuyet: "/toan5/clip16",
   },
-
 ];
 const class_content_dethi = [
   {
