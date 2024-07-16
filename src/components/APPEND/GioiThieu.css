@@ -26,8 +26,7 @@
   background-size: cover;
 }
 
-.inside_gioithieu h1 {
-}
+.inside_gioithieu h1 {}
 
 .inside_gioithieu ul {
   display: flex;
@@ -43,4 +42,51 @@
   margin-top: 5%;
   max-width: 80%;
   line-height: 25px;
+}
+
+.lienhepic1 {
+  background-image: url('/public/pics/giasuchu.jpg');
+  width: 150%;
+  height: 150%;
+  cursor: pointer;
+  align-items: center;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: -5px -10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+}
+
+.ulLienhe li {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 3%;
+}
+
+
+
+.lienhepic2 {
+  background-image: url('/public/pics/giasunam.jpg');
+  width: 150%;
+  height: 150%;
+  cursor: pointer;
+  align-items: center;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: 0 -80px;
+  box-shadow: 0 0 10px black;
+  display: flex;
+}
+
+.lienhepic3 {
+  background-image: url('/public/pics/giasuhoang.jpg');
+  width: 150%;
+  height: 150%;
+  cursor: pointer;
+  align-items: center;
+  background-size: cover;
+  border-radius: 50%;
+  background-position: -5px -10px;
+  box-shadow: 0 0 10px black;
+  display: flex;
 }

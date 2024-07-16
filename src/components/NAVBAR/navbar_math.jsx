@@ -9,17 +9,24 @@ const NavBar = () => {
   };
   const c2 = {
     color: "#FEEFAD",
+    marginTop: '10px'
   };
   const c3 = {
-    color: "rgb(3, 255, 7)",
+    color: '#FFFFFF',
+    marginTop: '10px'
   };
   const c4 = {
     color: "#FEEFAD",
+    marginTop: '10px'
   };
   const hoverBox = {
     backGroundColor: "red",
     borderRadius: "10px",
   };
+  const f = {
+    marginLeft: '127px',
+    fontSize: '14px'
+  }
   const [append, setAppend] = useState(false);
   function isAppend() {
     setAppend(!append);
@@ -27,12 +34,25 @@ const NavBar = () => {
   return (
     <div className="container_math">
       <Link to="/">
-        <i className="fa-solid fa-m fa-bounce" style={c1}></i>
-        <i className="fa-solid fa-a" style={c2}></i>
-        <i className="fa-solid fa-t" style={c4}></i>
-        <i className="fa-solid fa-square-h fa-beat" style={c3}>
-          {" "}
-        </i>
+
+        <div style={{ display: 'flex', flexDirection: 'column', }}>
+          <div style={{ display: 'flex' }}>
+            <i className="fa-solid fa-m fa-bounce" style={c1}></i>
+            <i className="fa-solid fa-a" style={c2}></i>
+            <i className="fa-solid fa-t" style={c4}></i>
+            <i className="fa-solid fa-h" style={c3}>
+
+              {" "}
+            </i>
+          </div>
+          <div style={{ marginTop: '2%' }}>
+            <i className="fa-solid fa-f" style={f}></i>
+            <i className="fa-solid fa-u" style={{ fontSize: '14px' }}></i>
+            <i className="fa-solid fa-n" style={{ fontSize: '14px' }}></i>
+          </div>
+        </div>
+
+
       </Link>
 
       <span className="container_li">

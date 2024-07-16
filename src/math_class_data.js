@@ -67,115 +67,115 @@ const class_content_1 = [
 const class_content_2 = [
   {
     title: "Học kì 1 - Bài 1: Tia số. Số liền trước, số liền sau ",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/u7NXs97jh7M?si=Gp9cAp7Tz0JucxAz",
     ly_thuyet: "/toan2/clip1",
   },
   {
     title: "Học kì 1 - Bài 2: Các thành phần của phép cộng, phép trừ",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316  ",
     ly_thuyet: "/toan2/clip2",
   },
   {
     title: "Học kì 1 - Bài 3:  Hơn, kém nhau bao nhiêu",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip3",
   },
   {
     title: "Học kì 1 - Bài 4: Phép cộng, trừ (qua 10) trong phạm vi 20",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/twQaDjUQGzY?si=yHsocA3WOa3WAD4_",
     ly_thuyet: "/toan2/clip4",
   },
   {
     title: "Học kì 1 - Bài 5: Bảng cộng,trừ (qua 10)",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip5",
   },
   {
     title: "Học kì 1 - Bài 6: Bài toán về thêm, bớt một số đơn vị",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip6",
   },
   {
     title: "Học kì 1 - Bài 7:  Ki-lô-gam , Lít",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip7",
   },
   {
     title:
       "Học kì 1 - Bài 8: Phép cộng,trừ (có nhớ) số có hai chữ số với số có một chữ số",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip8",
   },
   {
     title: "Học kì 1 - Bài 9: Ngày - giờ, giờ - phút",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip9",
   },
   {
     title: "Học kì 2 - Bài 10: Phép nhân, Thừa số , Tích",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip10",
   },
   {
     title: "Học kì 2 - Bài 11: Phép chia, Số bị chia, số chia, thương",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip11",
   },
   {
     title: "Học kì 2 - Bài 12: Bảng nhân, chia 2 và 5",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip12",
   },
   {
     title: "Học kì 2 - Bài 13: Khối trụ, khối cầu",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip13",
   },
   {
     title:
       "Học kì 2 - Bài 14: Đơn vị, chục, trăm, nghìn, Các số tròn trăm, tròn chục",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip14",
   },
   {
     title: "Học kì 2 - Bài 15: So sánh các số, tròn trăm, tròn chục",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip15",
   },
   {
     title: "Học kì 2 - Bài 16: Số có ba chữ số, So sánh các số có ba chữ số",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip16",
   },
   {
     title: "Học kì 2 - Bài 17: Viết số thành tổng các trăm, chục, đơn vị",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip17",
   },
   {
     title:
       "Học kì 2 - Bài 18: Đề-xi-mét, mét, ki-lô-mét, Giới thiệu tiền Việt Nam",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/Ftyxa65qCJw?si=EjtbdNL-1yhtMf2e",
     ly_thuyet: "/toan2/clip18",
   },
   {
     title: "Học kì 2 - Bài 19: Phép cộng, trừ trong phạm vi 1000",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip19",
   },
   {
     title: "Học kì 2 - Bài 20: Viết số thành tổng các trăm, chục, đơn vị",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip20",
   },
   {
     title: "Học kì 2 - Bài 21: Thu thập, phân loại, kiểm đếm số liệu",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip21",
   },
   {
     title: "Học kì 2 - Bài 22: Chắc chắn, có thể, không thể",
-    video_link: "",
+    video_link: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
     ly_thuyet: "/toan2/clip22",
   },
 ];

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { HashRouter as Router, Routes, Route } from "react-router-dom";
 import Homepage from "./homepage";
 import Introduction from "./components/introduction";
@@ -12,6 +12,9 @@ import LiThuyetContainer from "./components/Lithuyet/lithuyet_container";
 import { lithuyet_container } from "./components/Lithuyet/lithuyet_data";
 
 const AppRouter = () => {
+  useEffect(() => {
+    document.title = 'Math Fun học tập online miễn phí'
+  }, [])
   return (
     <Router>
       <div>

@@ -47,7 +47,7 @@
 //             '/toan1/clip9',
 //         ],
 //         srcvideo: [
-//             "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ",
+//             "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316",
 //             "https://www.youtube.com/embed/Cnb32kAqV0A?si=tyZnJ1IsCdppn9sf",
 //             "https://www.youtube.com/embed/Dnj5FglKgKk?si=cKiVd14_e_vgxLnl",
 //             "https://www.youtube.com/embed/3fi7uwBU-CE?si=FfKjJlAqux43hIxL",
@@ -335,7 +335,7 @@ const dataLiThuyetlop1_3 = [
         pathname:
             '/toan1/clip3',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ"
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316"
         , topath: '/toan1'
     }
 ]
@@ -468,7 +468,7 @@ const dataLiThuyetlop1_5 = [
         pathname:
             '/toan1/clip5',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ"
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316"
         , topath: '/toan1'
     }
 ]
@@ -546,7 +546,7 @@ const dataLiThuyetlop1_6 = [
         ],
         pathname:
             '/toan1/clip6',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ"
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316"
 
         , topath: '/toan1'
     }
@@ -643,7 +643,7 @@ const dataLiThuyetlop1_7 = [
         pathname:
             '/toan1/clip7',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ"
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316"
         , topath: '/toan1'
     }
 ]
@@ -681,7 +681,7 @@ const dataLiThuyetlop1_8 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan1/clip8',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan1'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan1'
     }
 ]
 const dataLiThuyetlop1_9 = [
@@ -756,7 +756,7 @@ const dataLiThuyetlop1_9 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan1/clip9',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan1'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan1'
     }
 ]
 const dataLiThuyetlop1_10 = [
@@ -840,7 +840,7 @@ const dataLiThuyetlop1_10 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan1/clip10',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan1'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan1'
     }
 ]
 const dataLiThuyetlop1_11 = [
@@ -907,7 +907,7 @@ const dataLiThuyetlop1_11 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan1/clip11',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan1'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan1'
     }
 ]
 const dataLiThuyetlop1_12 = [
@@ -950,7 +950,7 @@ const dataLiThuyetlop1_12 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan1/clip12',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan1'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan1'
     }
 ]
 const dataLiThuyetlop3_1 = [
@@ -1390,7 +1390,7 @@ const dataLiThuyetlop3_7 = [
 
         ],
         pathname: '/toan3/clip7',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan3'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan3'
     }
 ]
 
@@ -1435,7 +1435,7 @@ const dataLiThuyetlop3_8 = [
         pathname:
             '/toan3/clip8',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan3'
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan3'
 
     }
 ]
@@ -1478,7 +1478,7 @@ const dataLiThuyetlop3_9 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan3/clip9',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan3'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan3'
     }
 ]
 const dataLiThuyetlop2_1 = [
@@ -1526,7 +1526,7 @@ const dataLiThuyetlop2_1 = [
             '/pics/blooket5.webp',],
         pathname: '/toan2/clip1',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+            "https://www.youtube.com/embed/u7NXs97jh7M?si=Gp9cAp7Tz0JucxAz", topath: '/toan2'
 
     }
 ]
@@ -1590,7 +1590,7 @@ const dataLiThuyetlop2_2 = [
         pathname:
             '/toan2/clip2',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
 
     },
 ]
@@ -1637,7 +1637,7 @@ const dataLiThuyetlop2_3 = [
         pathname:
             '/toan2/clip3',
         srcvideo:
-            "https://www.youtube.com/embed/Cnb32kAqV0A?si=tyZnJ1IsCdppn9sf", topath: '/toan2'
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
 
     }
 ]
@@ -1689,7 +1689,7 @@ const dataLiThuyetlop2_4 = [
         pathname:
             '/toan2/clip4',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+            "https://www.youtube.com/embed/twQaDjUQGzY?si=yHsocA3WOa3WAD4_", topath: '/toan2'
 
     }
 ]
@@ -1823,7 +1823,7 @@ const dataLiThuyetlop2_6 = [
         pathname:
             '/toan2/clip6',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
 
     }
 ]
@@ -1884,7 +1884,7 @@ const dataLiThuyetlop2_7 = [
         ],
         pathname:
             '/toan2/clip7',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
 
 
     }
@@ -1955,7 +1955,7 @@ const dataLiThuyetlop2_8 = [
         pathname:
             '/toan2/clip8',
         srcvideo:
-            "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+            "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
 
     }
 ]
@@ -2019,7 +2019,7 @@ const dataLiThuyetlop2_9 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip9',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_10 = [
@@ -2105,7 +2105,7 @@ const dataLiThuyetlop2_10 = [
             '/pics/blooket3.webp',
         ],
         pathname: '/toan2/clip10',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_11 = [
@@ -2191,7 +2191,7 @@ const dataLiThuyetlop2_11 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip11',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_12 = [
@@ -2234,7 +2234,7 @@ const dataLiThuyetlop2_12 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip12',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_13 = [
@@ -2277,7 +2277,7 @@ const dataLiThuyetlop2_13 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip13',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_14 = [
@@ -2328,7 +2328,7 @@ const dataLiThuyetlop2_14 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip14',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_15 = [
@@ -2393,7 +2393,7 @@ const dataLiThuyetlop2_15 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip15',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_16 = [
@@ -2466,7 +2466,7 @@ const dataLiThuyetlop2_16 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip16',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_17 = [
@@ -2524,7 +2524,7 @@ const dataLiThuyetlop2_17 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip17',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_18 = [
@@ -2601,7 +2601,7 @@ const dataLiThuyetlop2_18 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip18',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/Ftyxa65qCJw?si=EjtbdNL-1yhtMf2e", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_19 = [
@@ -2662,7 +2662,7 @@ const dataLiThuyetlop2_19 = [
 
         ],
         pathname: '/toan2/clip19',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_20 = [
@@ -2724,7 +2724,7 @@ const dataLiThuyetlop2_20 = [
 
         ],
         pathname: '/toan2/clip20',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_21 = [
@@ -2787,7 +2787,7 @@ const dataLiThuyetlop2_21 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip21',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 const dataLiThuyetlop2_22 = [
@@ -2845,7 +2845,7 @@ const dataLiThuyetlop2_22 = [
             '/pics/blooket5.webp',
         ],
         pathname: '/toan2/clip22',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan2'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan2'
     }
 ]
 ////// LOP 4
@@ -3603,7 +3603,7 @@ const dataLiThuyetlop5_3 = [
 
         ],
         pathname: '/toan5/clip3',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan5'
     }
 ]
 
@@ -3665,7 +3665,7 @@ const dataLiThuyetlop5_4 = [
 
         ],
         pathname: '/toan5/clip4',
-        srcvideo: "https://www.youtube.com/embed/ni87SumLyvc?si=fbRotrDY2kWfQOKZ", topath: '/toan5'
+        srcvideo: "https://www.youtube.com/embed/BIlDPqcIDYU?si=3noyX4miXTbV30cu&amp;start=316", topath: '/toan5'
     }
 ]
 
